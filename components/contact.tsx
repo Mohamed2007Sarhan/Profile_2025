@@ -465,7 +465,7 @@ export function Contact() {
 
             {/* Instagram */}
             <motion.a
-              href="https://www.instagram.com/mohamed_sarhan6608"
+              href="https://www.instagram.com/dr.mohamed_sarhan6608"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg hover:from-purple-600 hover:to-pink-600 transition-colors"
