@@ -1,0 +1,86 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="medicalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ecdc4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#45b7d1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#medicalGradient)"/>
+  
+  <!-- Medical website interface -->
+  <g transform="translate(50, 50)">
+    <rect x="0" y="0" width="300" height="200" rx="8" fill="url(#cardGradient)" stroke="#e0e0e0" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="300" height="50" fill="#f8f9fa" rx="8"/>
+    <text x="20" y="30" fill="#333" font-family="Arial, sans-serif" font-size="18" font-weight="bold">د. هدى - عيادة الأسنان</text>
+    
+    <!-- Navigation -->
+    <g transform="translate(20, 60)">
+      <rect x="0" y="0" width="60" height="25" fill="#4ecdc4" rx="3"/>
+      <text x="30" y="17" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">الرئيسية</text>
+      
+      <rect x="70" y="0" width="60" height="25" fill="white" stroke="#4ecdc4" stroke-width="1" rx="3"/>
+      <text x="100" y="17" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="10">الخدمات</text>
+      
+      <rect x="140" y="0" width="60" height="25" fill="white" stroke="#4ecdc4" stroke-width="1" rx="3"/>
+      <text x="170" y="17" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="10">حجز موعد</text>
+      
+      <rect x="210" y="0" width="60" height="25" fill="white" stroke="#4ecdc4" stroke-width="1" rx="3"/>
+      <text x="240" y="17" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="10">اتصل بنا</text>
+    </g>
+    
+    <!-- Content sections -->
+    <g transform="translate(20, 100)">
+      <!-- Doctor info -->
+      <rect x="0" y="0" width="130" height="80" fill="white" stroke="#ddd" stroke-width="1" rx="4"/>
+      <text x="10" y="20" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">د. هدى محمد</text>
+      <text x="10" y="35" fill="#666" font-family="Arial, sans-serif" font-size="10">أخصائية تقويم الأسنان</text>
+      <text x="10" y="50" fill="#666" font-family="Arial, sans-serif" font-size="9">خبرة 15 سنة في طب الأسنان</text>
+      <text x="10" y="65" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="9">متاحة: 9:00 ص - 6:00 م</text>
+      
+      <!-- Services -->
+      <rect x="140" y="0" width="130" height="80" fill="white" stroke="#ddd" stroke-width="1" rx="4"/>
+      <text x="150" y="20" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">الخدمات</text>
+      <text x="150" y="35" fill="#666" font-family="Arial, sans-serif" font-size="9">• تنظيف الأسنان</text>
+      <text x="150" y="50" fill="#666" font-family="Arial, sans-serif" font-size="9">• تقويم الأسنان</text>
+      <text x="150" y="65" fill="#666" font-family="Arial, sans-serif" font-size="9">• زراعة الأسنان</text>
+    </g>
+    
+    <!-- Appointment booking -->
+    <g transform="translate(20, 190)">
+      <rect x="0" y="0" width="260" height="10" fill="#4ecdc4" rx="5"/>
+      <text x="130" y="8" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8">احجز موعدك الآن - 01234567890</text>
+    </g>
+  </g>
+  
+  <!-- Medical cross icon -->
+  <g transform="translate(320, 80)">
+    <circle cx="20" cy="20" r="18" fill="white" opacity="0.8"/>
+    <rect x="15" y="10" width="10" height="20" fill="#4ecdc4"/>
+    <rect x="10" y="15" width="20" height="10" fill="#4ecdc4"/>
+  </g>
+  
+  <!-- HTML logo -->
+  <g transform="translate(320, 140)">
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#e34f26"/>
+    <text x="20" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">HTML</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="280" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Dr. Hoda</text>
+  <text x="200" y="295" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">Medical Website</text>
+</svg>
+
+
+
+
+
+
+

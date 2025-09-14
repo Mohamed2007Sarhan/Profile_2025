@@ -1,0 +1,136 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="androidGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3ddc84;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2bb673;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a9d5a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="phoneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:0.9" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#androidGradient)"/>
+  
+  <!-- Android Phone -->
+  <g transform="translate(300, 100)">
+    <rect x="0" y="0" width="200" height="400" rx="30" fill="url(#phoneGradient)" stroke="#3ddc84" stroke-width="4" filter="url(#glow)"/>
+    
+    <!-- Phone screen -->
+    <rect x="20" y="40" width="160" height="320" rx="15" fill="#000000"/>
+    
+    <!-- Status bar -->
+    <rect x="20" y="40" width="160" height="25" fill="#1a1a1a"/>
+    <text x="30" y="57" fill="white" font-family="Arial, sans-serif" font-size="8">9:41</text>
+    <text x="170" y="57" fill="white" font-family="Arial, sans-serif" font-size="8">100%</text>
+    
+    <!-- App header -->
+    <rect x="20" y="65" width="160" height="40" fill="#3ddc84"/>
+    <text x="100" y="88" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Task Manager</text>
+    
+    <!-- Task list -->
+    <g transform="translate(30, 115)">
+      <!-- Task 1 -->
+      <rect x="0" y="0" width="140" height="30" rx="5" fill="#2a2a2a" stroke="#3ddc84" stroke-width="1"/>
+      <circle cx="15" cy="15" r="5" fill="none" stroke="#3ddc84" stroke-width="2"/>
+      <text x="25" y="20" fill="white" font-family="Arial, sans-serif" font-size="10">Complete project report</text>
+      
+      <!-- Task 2 -->
+      <rect x="0" y="40" width="140" height="30" rx="5" fill="#2a2a2a" stroke="#3ddc84" stroke-width="1"/>
+      <circle cx="15" cy="55" r="5" fill="#3ddc84"/>
+      <text x="25" y="60" fill="white" font-family="Arial, sans-serif" font-size="10">Buy groceries</text>
+      
+      <!-- Task 3 -->
+      <rect x="0" y="80" width="140" height="30" rx="5" fill="#2a2a2a" stroke="#3ddc84" stroke-width="1"/>
+      <circle cx="15" cy="95" r="5" fill="none" stroke="#3ddc84" stroke-width="2"/>
+      <text x="25" y="100" fill="white" font-family="Arial, sans-serif" font-size="10">Call dentist</text>
+      
+      <!-- Task 4 -->
+      <rect x="0" y="120" width="140" height="30" rx="5" fill="#2a2a2a" stroke="#3ddc84" stroke-width="1"/>
+      <circle cx="15" cy="135" r="5" fill="none" stroke="#3ddc84" stroke-width="2"/>
+      <text x="25" y="140" fill="white" font-family="Arial, sans-serif" font-size="10">Gym workout</text>
+      
+      <!-- Add task button -->
+      <rect x="0" y="170" width="140" height="25" rx="5" fill="#3ddc84"/>
+      <text x="70" y="185" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">+ Add Task</text>
+    </g>
+    
+    <!-- Home button -->
+    <rect x="90" y="380" width="20" height="5" rx="2" fill="#3ddc84"/>
+  </g>
+  
+  <!-- Android Logo -->
+  <g transform="translate(100, 150)">
+    <circle cx="0" cy="0" r="40" fill="#3ddc84" filter="url(#glow)"/>
+    <path d="M-20,-10 Q-10,-20 0,-10 Q10,-20 20,-10 Q20,10 0,30 Q-20,10 -20,-10" fill="white"/>
+    <circle cx="-8" cy="0" r="3" fill="#3ddc84"/>
+    <circle cx="8" cy="0" r="3" fill="#3ddc84"/>
+    <path d="M-15,15 Q0,25 15,15" stroke="#3ddc84" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Task Management Features -->
+  <g transform="translate(550, 150)">
+    <rect x="0" y="0" width="200" height="300" rx="15" fill="url(#phoneGradient)" stroke="#3ddc84" stroke-width="3" filter="url(#glow)"/>
+    
+    <text x="100" y="30" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Features</text>
+    
+    <g transform="translate(20, 50)">
+      <text x="0" y="20" fill="#333" font-family="Arial, sans-serif" font-size="12" font-weight="bold">• Task Creation</text>
+      <text x="0" y="40" fill="#333" font-family="Arial, sans-serif" font-size="12" font-weight="bold">• Priority Levels</text>
+      <text x="0" y="60" fill="#333" font-family="Arial, sans-serif" font-size="12" font-weight="bold">• Due Dates</text>
+      <text x="0" y="80" fill="#333" font-family="Arial, sans-serif" font-size="12" font-weight="bold">• Categories</text>
+      <text x="0" y="100" fill="#333" font-family="Arial, sans-serif" font-size="12" font-weight="bold">• Notifications</text>
+      <text x="0" y="120" fill="#333" font-family="Arial, sans-serif" font-size="12" font-weight="bold">• Progress Tracking</text>
+      <text x="0" y="140" fill="#333" font-family="Arial, sans-serif" font-size="12" font-weight="bold">• Data Sync</text>
+      <text x="0" y="160" fill="#333" font-family="Arial, sans-serif" font-size="12" font-weight="bold">• Dark Mode</text>
+      <text x="0" y="180" fill="#333" font-family="Arial, sans-serif" font-size="12" font-weight="bold">• Widgets</text>
+      <text x="0" y="200" fill="#333" font-family="Arial, sans-serif" font-size="12" font-weight="bold">• Backup & Restore</text>
+    </g>
+  </g>
+  
+  <!-- Progress Chart -->
+  <g transform="translate(100, 500)">
+    <rect x="0" y="0" width="300" height="80" rx="10" fill="url(#phoneGradient)" stroke="#3ddc84" stroke-width="2"/>
+    <text x="150" y="20" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Today's Progress</text>
+    
+    <g transform="translate(20, 35)">
+      <text x="0" y="15" fill="#333" font-family="Arial, sans-serif" font-size="10">Completed: 3/7 tasks</text>
+      <rect x="0" y="20" width="200" height="10" rx="5" fill="#e5e7eb"/>
+      <rect x="0" y="20" width="85" height="10" rx="5" fill="#3ddc84"/>
+      <text x="210" y="28" fill="#333" font-family="Arial, sans-serif" font-size="10">43%</text>
+    </g>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="32" font-weight="bold">Android Task Manager</text>
+  <text x="400" y="80" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16">Productivity & Organization App</text>
+  
+  <!-- Floating task icons -->
+  <g opacity="0.6">
+    <circle cx="200" cy="200" r="3" fill="#3ddc84">
+      <animate attributeName="cy" values="200;180;200" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="250" r="3" fill="#3ddc84">
+      <animate attributeName="cy" values="250;230;250" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="350" r="3" fill="#3ddc84">
+      <animate attributeName="cy" values="350;330;350" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="650" cy="300" r="3" fill="#3ddc84">
+      <animate attributeName="cy" values="300;280;300" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Connection lines -->
+  <line x1="140" y1="150" x2="300" y2="200" stroke="#3ddc84" stroke-width="2" opacity="0.6"/>
+  <line x1="500" y1="200" x2="550" y2="200" stroke="#3ddc84" stroke-width="2" opacity="0.6"/>
+</svg>

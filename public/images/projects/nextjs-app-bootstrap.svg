@@ -1,0 +1,66 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nextjsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#333333;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bootstrapGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7952b3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6f42c1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#nextjsGradient)"/>
+  
+  <!-- Next.js app structure -->
+  <g transform="translate(50, 50)">
+    <rect x="0" y="0" width="300" height="200" rx="8" fill="white" stroke="#e0e0e0" stroke-width="2"/>
+    
+    <!-- File structure -->
+    <g transform="translate(20, 20)">
+      <text x="0" y="15" fill="#333" font-family="monospace" font-size="12" font-weight="bold">📁 my-nextjs-app</text>
+      <text x="20" y="35" fill="#666" font-family="monospace" font-size="10">📁 pages/</text>
+      <text x="40" y="50" fill="#666" font-family="monospace" font-size="10">📄 index.js</text>
+      <text x="40" y="65" fill="#666" font-family="monospace" font-size="10">📄 about.js</text>
+      <text x="40" y="80" fill="#666" font-family="monospace" font-size="10">📄 contact.js</text>
+      
+      <text x="20" y="105" fill="#666" font-family="monospace" font-size="10">📁 components/</text>
+      <text x="40" y="120" fill="#666" font-family="monospace" font-size="10">📄 Header.js</text>
+      <text x="40" y="135" fill="#666" font-family="monospace" font-size="10">📄 Footer.js</text>
+      
+      <text x="20" y="155" fill="#666" font-family="monospace" font-size="10">📄 package.json</text>
+      <text x="20" y="170" fill="#666" font-family="monospace" font-size="10">📄 next.config.js</text>
+    </g>
+  </g>
+  
+  <!-- Next.js logo -->
+  <g transform="translate(320, 80)">
+    <circle cx="20" cy="20" r="18" fill="white"/>
+    <path d="M8,20 L20,8 L32,20 L20,32 Z" fill="black"/>
+    <path d="M14,20 L20,14 L26,20 L20,26 Z" fill="white"/>
+  </g>
+  
+  <!-- Bootstrap logo -->
+  <g transform="translate(320, 140)">
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="url(#bootstrapGradient)"/>
+    <text x="20" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">B</text>
+  </g>
+  
+  <!-- Code example -->
+  <g transform="translate(50, 270)">
+    <rect x="0" y="0" width="300" height="20" rx="5" fill="white" opacity="0.2"/>
+    <text x="150" y="15" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">🚀 Ready-to-use Next.js + Bootstrap template</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="290" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Next.js App Bootstrap</text>
+  <text x="200" y="305" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">Development Starter Template</text>
+</svg>
+
+
+
+
+
+
+

@@ -1,0 +1,97 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="teamGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#teamGradient)"/>
+  
+  <!-- Team collaboration interface -->
+  <g transform="translate(50, 50)">
+    <rect x="0" y="0" width="300" height="200" rx="8" fill="url(#cardGradient)" stroke="#e0e0e0" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="300" height="40" fill="#f8f9fa" rx="8"/>
+    <text x="20" y="25" fill="#333" font-family="Arial, sans-serif" font-size="16" font-weight="bold">ProTeamHub</text>
+    
+    <!-- Team members -->
+    <g transform="translate(20, 50)">
+      <text x="0" y="15" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Team Members</text>
+      
+      <!-- Member 1 -->
+      <circle cx="10" cy="35" r="12" fill="#4ecdc4"/>
+      <text x="10" y="40" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">A</text>
+      <text x="30" y="40" fill="#333" font-family="Arial, sans-serif" font-size="10">Ahmed Hassan</text>
+      <circle cx="25" cy="30" r="3" fill="#48bb78"/>
+      
+      <!-- Member 2 -->
+      <circle cx="10" cy="60" r="12" fill="#ff6b6b"/>
+      <text x="10" y="65" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">S</text>
+      <text x="30" y="65" fill="#333" font-family="Arial, sans-serif" font-size="10">Sara Ali</text>
+      <circle cx="25" cy="55" r="3" fill="#48bb78"/>
+      
+      <!-- Member 3 -->
+      <circle cx="10" cy="85" r="12" fill="#45b7d1"/>
+      <text x="10" y="90" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">M</text>
+      <text x="30" y="90" fill="#333" font-family="Arial, sans-serif" font-size="10">Mohamed Sarhan</text>
+      <circle cx="25" cy="80" r="3" fill="#ed8936"/>
+    </g>
+    
+    <!-- Project status -->
+    <g transform="translate(150, 50)">
+      <text x="0" y="15" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Active Projects</text>
+      
+      <!-- Project 1 -->
+      <rect x="0" y="25" width="140" height="30" fill="white" stroke="#ddd" stroke-width="1" rx="4"/>
+      <text x="10" y="40" fill="#333" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Website Redesign</text>
+      <text x="10" y="50" fill="#666" font-family="Arial, sans-serif" font-size="9">Progress: 75%</text>
+      <rect x="10" y="55" width="100" height="4" fill="#4ecdc4" rx="2"/>
+      
+      <!-- Project 2 -->
+      <rect x="0" y="60" width="140" height="30" fill="white" stroke="#ddd" stroke-width="1" rx="4"/>
+      <text x="10" y="75" fill="#333" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Mobile App</text>
+      <text x="10" y="85" fill="#666" font-family="Arial, sans-serif" font-size="9">Progress: 45%</text>
+      <rect x="10" y="90" width="60" height="4" fill="#ff6b6b" rx="2"/>
+      
+      <!-- Project 3 -->
+      <rect x="0" y="95" width="140" height="30" fill="white" stroke="#ddd" stroke-width="1" rx="4"/>
+      <text x="10" y="110" fill="#333" font-family="Arial, sans-serif" font-size="11" font-weight="bold">API Development</text>
+      <text x="10" y="120" fill="#666" font-family="Arial, sans-serif" font-size="9">Progress: 90%</text>
+      <rect x="10" y="125" width="120" height="4" fill="#48bb78" rx="2"/>
+    </g>
+    
+    <!-- Chat section -->
+    <g transform="translate(20, 140)">
+      <rect x="0" y="0" width="260" height="50" fill="white" stroke="#ddd" stroke-width="1" rx="4"/>
+      <text x="10" y="15" fill="#333" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Team Chat</text>
+      <text x="10" y="30" fill="#666" font-family="Arial, sans-serif" font-size="9">Ahmed: Great work on the API!</text>
+      <text x="10" y="42" fill="#666" font-family="Arial, sans-serif" font-size="9">Sara: Thanks! The UI is almost ready</text>
+    </g>
+  </g>
+  
+  <!-- Collaboration icon -->
+  <g transform="translate(320, 80)">
+    <circle cx="20" cy="20" r="15" fill="white" opacity="0.8"/>
+    <path d="M10,20 L20,10 L30,20 L20,30 Z" fill="#4ecdc4"/>
+    <circle cx="15" cy="15" r="2" fill="white"/>
+    <circle cx="25" cy="25" r="2" fill="white"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="280" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">ProTeamHub</text>
+  <text x="200" y="295" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">Professional Team Collaboration</text>
+</svg>
+
+
+
+
+
+
+

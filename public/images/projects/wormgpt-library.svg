@@ -1,0 +1,87 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wormGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4ecdc4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#45b7d1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="codeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d2d2d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#wormGradient)"/>
+  
+  <!-- Code editor interface -->
+  <g transform="translate(50, 50)">
+    <rect x="0" y="0" width="300" height="180" rx="8" fill="url(#codeGradient)" stroke="#4a4a4a" stroke-width="2"/>
+    
+    <!-- Title bar -->
+    <rect x="0" y="0" width="300" height="25" fill="#333" rx="8"/>
+    <circle cx="15" cy="12" r="4" fill="#ff5f56"/>
+    <circle cx="30" cy="12" r="4" fill="#ffbd2e"/>
+    <circle cx="45" cy="12" r="4" fill="#27ca3f"/>
+    <text x="60" y="17" fill="white" font-family="Arial, sans-serif" font-size="10">wormgpt_library.py</text>
+    
+    <!-- Code content -->
+    <g transform="translate(10, 35)">
+      <text x="0" y="15" fill="#61dafb" font-family="monospace" font-size="12">import wormgpt</text>
+      <text x="0" y="30" fill="#f8f8f2" font-family="monospace" font-size="12">from wormgpt import WormGPT</text>
+      <text x="0" y="45" fill="#f8f8f2" font-family="monospace" font-size="12"></text>
+      <text x="0" y="60" fill="#a6e22e" font-family="monospace" font-size="12"># Initialize WormGPT</text>
+      <text x="0" y="75" fill="#f8f8f2" font-family="monospace" font-size="12">model = WormGPT()</text>
+      <text x="0" y="90" fill="#f8f8f2" font-family="monospace" font-size="12"></text>
+      <text x="0" y="105" fill="#a6e22e" font-family="monospace" font-size="12"># Generate text</text>
+      <text x="0" y="120" fill="#f8f8f2" font-family="monospace" font-size="12">response = model.generate(</text>
+      <text x="20" y="135" fill="#e6db74" font-family="monospace" font-size="12">"Hello, how are you?"</text>
+      <text x="0" y="150" fill="#f8f8f2" font-family="monospace" font-size="12">)</text>
+    </g>
+  </g>
+  
+  <!-- Python logo -->
+  <g transform="translate(320, 50)">
+    <circle cx="20" cy="20" r="18" fill="none" stroke="#3776ab" stroke-width="3"/>
+    <path d="M2,20 Q2,2 20,2 L38,2 Q38,8 32,8 L26,8 Q20,8 20,14 L20,26 Q20,32 14,32 L8,32 Q2,32 2,26 Z" fill="#3776ab"/>
+    <path d="M38,20 Q38,38 20,38 L2,38 Q2,32 8,32 L14,32 Q20,32 20,26 L20,14 Q20,8 26,8 L32,8 Q38,8 38,14 Z" fill="#ffd43b"/>
+    <text x="20" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Py</text>
+  </g>
+  
+  <!-- AI processing visualization -->
+  <g transform="translate(50, 250)">
+    <!-- Neural network nodes -->
+    <circle cx="0" cy="0" r="8" fill="white" opacity="0.8"/>
+    <circle cx="30" cy="0" r="8" fill="white" opacity="0.8"/>
+    <circle cx="60" cy="0" r="8" fill="white" opacity="0.8"/>
+    <circle cx="90" cy="0" r="8" fill="white" opacity="0.8"/>
+    
+    <!-- Connections with animation -->
+    <line x1="8" y1="0" x2="22" y2="0" stroke="white" stroke-width="2" opacity="0.6">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="38" y1="0" x2="52" y2="0" stroke="white" stroke-width="2" opacity="0.6">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite" begin="0.5s"/>
+    </line>
+    <line x1="68" y1="0" x2="82" y2="0" stroke="white" stroke-width="2" opacity="0.6">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite" begin="1s"/>
+    </line>
+  </g>
+  
+  <!-- Text generation output -->
+  <g transform="translate(200, 250)">
+    <rect x="0" y="0" width="150" height="30" rx="5" fill="white" opacity="0.2"/>
+    <text x="75" y="20" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Text Generation</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="290" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">WormGPT Library</text>
+  <text x="200" y="305" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">Python AI Text Generation</text>
+</svg>
+
+
+
+
+
+
+

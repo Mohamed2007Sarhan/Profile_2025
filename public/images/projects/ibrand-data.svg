@@ -1,0 +1,79 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dataGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="serverGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d3748;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a5568;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#dataGradient)"/>
+  
+  <!-- Server rack -->
+  <g transform="translate(50, 50)">
+    <rect x="0" y="0" width="200" height="150" rx="5" fill="url(#serverGradient)" stroke="#1a202c" stroke-width="2"/>
+    
+    <!-- Server units -->
+    <rect x="10" y="10" width="180" height="20" fill="#4a5568" rx="2"/>
+    <rect x="10" y="35" width="180" height="20" fill="#4a5568" rx="2"/>
+    <rect x="10" y="60" width="180" height="20" fill="#4a5568" rx="2"/>
+    <rect x="10" y="85" width="180" height="20" fill="#4a5568" rx="2"/>
+    <rect x="10" y="110" width="180" height="20" fill="#4a5568" rx="2"/>
+    
+    <!-- Status lights -->
+    <circle cx="15" cy="20" r="3" fill="#48bb78"/>
+    <circle cx="15" cy="45" r="3" fill="#48bb78"/>
+    <circle cx="15" cy="70" r="3" fill="#ed8936"/>
+    <circle cx="15" cy="95" r="3" fill="#48bb78"/>
+    <circle cx="15" cy="120" r="3" fill="#48bb78"/>
+    
+    <!-- Labels -->
+    <text x="25" y="25" fill="white" font-family="Arial, sans-serif" font-size="10">API Server</text>
+    <text x="25" y="50" fill="white" font-family="Arial, sans-serif" font-size="10">Database</text>
+    <text x="25" y="75" fill="white" font-family="Arial, sans-serif" font-size="10">Cache</text>
+    <text x="25" y="100" fill="white" font-family="Arial, sans-serif" font-size="10">Auth Service</text>
+    <text x="25" y="125" fill="white" font-family="Arial, sans-serif" font-size="10">File Storage</text>
+  </g>
+  
+  <!-- Database visualization -->
+  <g transform="translate(280, 80)">
+    <!-- Database cylinder -->
+    <ellipse cx="30" cy="20" rx="25" ry="8" fill="#4ecdc4" opacity="0.8"/>
+    <rect x="5" y="20" width="50" height="40" fill="#4ecdc4" opacity="0.8"/>
+    <ellipse cx="30" cy="60" rx="25" ry="8" fill="#4ecdc4" opacity="0.8"/>
+    
+    <!-- Data flow lines -->
+    <line x1="0" y1="40" x2="20" y2="40" stroke="white" stroke-width="2" opacity="0.6"/>
+    <line x1="40" y1="40" x2="60" y2="40" stroke="white" stroke-width="2" opacity="0.6"/>
+  </g>
+  
+  <!-- TypeScript logo -->
+  <g transform="translate(320, 200)">
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#3178c6"/>
+    <text x="20" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">TS</text>
+  </g>
+  
+  <!-- API endpoints -->
+  <g transform="translate(50, 220)">
+    <rect x="0" y="0" width="300" height="50" rx="8" fill="white" opacity="0.2"/>
+    <text x="150" y="20" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">API Endpoints</text>
+    <text x="20" y="35" fill="white" font-family="monospace" font-size="10">GET /api/products</text>
+    <text x="120" y="35" fill="white" font-family="monospace" font-size="10">POST /api/users</text>
+    <text x="220" y="35" fill="white" font-family="monospace" font-size="10">PUT /api/orders</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="290" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">iBrand Data</text>
+  <text x="200" y="305" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">Backend Data Management</text>
+</svg>
+
+
+
+
+
+
+

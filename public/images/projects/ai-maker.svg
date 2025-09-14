@@ -1,0 +1,76 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4ecdc4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#45b7d1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="neuralGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#aiGradient)"/>
+  
+  <!-- Neural network nodes -->
+  <g transform="translate(50, 50)">
+    <!-- Input layer -->
+    <circle cx="0" cy="0" r="15" fill="url(#neuralGradient)"/>
+    <circle cx="0" cy="50" r="15" fill="url(#neuralGradient)"/>
+    <circle cx="0" cy="100" r="15" fill="url(#neuralGradient)"/>
+    
+    <!-- Hidden layer -->
+    <circle cx="100" cy="25" r="18" fill="url(#neuralGradient)"/>
+    <circle cx="100" cy="75" r="18" fill="url(#neuralGradient)"/>
+    
+    <!-- Output layer -->
+    <circle cx="200" cy="50" r="20" fill="url(#neuralGradient)"/>
+    
+    <!-- Connections -->
+    <line x1="15" y1="0" x2="82" y2="25" stroke="white" stroke-width="2" opacity="0.7"/>
+    <line x1="15" y1="50" x2="82" y2="25" stroke="white" stroke-width="2" opacity="0.7"/>
+    <line x1="15" y1="100" x2="82" y2="75" stroke="white" stroke-width="2" opacity="0.7"/>
+    <line x1="15" y1="0" x2="82" y2="75" stroke="white" stroke-width="2" opacity="0.5"/>
+    <line x1="15" y1="50" x2="82" y2="75" stroke="white" stroke-width="2" opacity="0.5"/>
+    <line x1="15" y1="100" x2="82" y2="25" stroke="white" stroke-width="2" opacity="0.5"/>
+    
+    <line x1="118" y1="25" x2="180" y2="50" stroke="white" stroke-width="2" opacity="0.7"/>
+    <line x1="118" y1="75" x2="180" y2="50" stroke="white" stroke-width="2" opacity="0.7"/>
+  </g>
+  
+  <!-- AI Brain icon -->
+  <g transform="translate(300, 50)">
+    <path d="M0,20 Q-20,0 0,0 Q20,0 0,20 Q-10,30 0,40 Q10,30 0,20" fill="url(#neuralGradient)" opacity="0.8"/>
+    <circle cx="-8" cy="15" r="3" fill="white"/>
+    <circle cx="8" cy="15" r="3" fill="white"/>
+    <circle cx="-8" cy="25" r="2" fill="white"/>
+    <circle cx="8" cy="25" r="2" fill="white"/>
+  </g>
+  
+  <!-- Python logo -->
+  <g transform="translate(50, 200)">
+    <circle cx="20" cy="20" r="18" fill="none" stroke="#3776ab" stroke-width="3"/>
+    <path d="M2,20 Q2,2 20,2 L38,2 Q38,8 32,8 L26,8 Q20,8 20,14 L20,26 Q20,32 14,32 L8,32 Q2,32 2,26 Z" fill="#3776ab"/>
+    <path d="M38,20 Q38,38 20,38 L2,38 Q2,32 8,32 L14,32 Q20,32 20,26 L20,14 Q20,8 26,8 L32,8 Q38,8 38,14 Z" fill="#ffd43b"/>
+    <text x="20" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Py</text>
+  </g>
+  
+  <!-- Machine Learning symbols -->
+  <g transform="translate(150, 200)">
+    <!-- Data points -->
+    <circle cx="0" cy="20" r="3" fill="white"/>
+    <circle cx="15" cy="10" r="3" fill="white"/>
+    <circle cx="30" cy="25" r="3" fill="white"/>
+    <circle cx="45" cy="15" r="3" fill="white"/>
+    <circle cx="60" cy="30" r="3" fill="white"/>
+    
+    <!-- Trend line -->
+    <path d="M0,20 Q15,10 30,25 T60,30" stroke="white" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="280" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">AI.Maker</text>
+  <text x="200" y="295" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">Python AI Development Platform</text>
+</svg>

@@ -1,0 +1,43 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://mohamedsarhan.dev/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Block admin panel and sensitive areas
+Disallow: /admin/
+Disallow: /admin/login
+Disallow: /api/
+Disallow: /_next/
+Disallow: /management/
+Disallow: /data/
+Disallow: /lib/
+Disallow: /hooks/
+Disallow: /components/
+Disallow: /styles/
+
+# Allow important pages and sections
+Allow: /
+Allow: /#about
+Allow: /#skills
+Allow: /#projects
+Allow: /#services
+Allow: /#contact
+Allow: /#testimonials
+Allow: /#achievements
+Allow: /#feedback
+
+# Block specific file types
+Disallow: /*.json$
+Disallow: /*.txt$
+Disallow: /*.md$
+Disallow: /*.env$
+
+# Allow CSS and JS for proper rendering
+Allow: /*.css$
+Allow: /*.js$
+Allow: /images/
+Allow: /icons/
