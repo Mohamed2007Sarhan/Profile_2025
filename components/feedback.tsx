@@ -56,7 +56,7 @@ export function Feedback() {
       console.log('Sending feedback data:', feedbackData)
       
       // Send to API
-      const response = await fetch('/api/feedback', {
+      const response = await fetch('https://formspree.io/f/mblkdlga', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
