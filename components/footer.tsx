@@ -36,7 +36,7 @@ const socialLinks = [
   {
     name: "Instagram",
     icon: Instagram,
-    href: "https://www.instagram.com/mohamed_sarhan6608",
+    href: "https://www.instagram.com/dr.mohamed_sarhan6608",
     color: "hover:text-pink-500",
   },
 ]
