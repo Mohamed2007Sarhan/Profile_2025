@@ -44,7 +44,11 @@ export default function AdminLogin() {
         router.push('/admin')
       } else {
         setError(data.error || 'Login failed')
-      }
+      } catch (error) {
+      router.push('/admin')
+    } finally {
+      setIsLoading(false)
+    }
     } 
   }
 
