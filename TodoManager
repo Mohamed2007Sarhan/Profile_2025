@@ -1,0 +1,4 @@
+<parameter name="action">mark_all_done</parameter>
+<parameter name="taskNameComplete">Portfolio Complete</parameter>
+<parameter name="taskNameActive">Completing Portfolio</parameter>
+</invoke>
