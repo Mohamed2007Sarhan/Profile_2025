@@ -101,3 +101,4 @@ Response data: {error: "Access denied to system files"}
 - ✅ حماية من الملفات الخطيرة فقط
 
 **اذهب الآن إلى `http://localhost:3000/admin` وامسك على "File Editor" واستمتع بإدارة ملفاتك بدون أي قيود!**
+
