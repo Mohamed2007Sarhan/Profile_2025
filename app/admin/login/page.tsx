@@ -44,12 +44,12 @@ export default function AdminLogin() {
         router.push('/admin')
       } else {
         setError(data.error || 'Login failed')
-      } catch (error) {
-      router.push('/admin')
+      }
+    } catch (error) {
+      setError('Server connection error')
     } finally {
       setIsLoading(false)
     }
-    } 
   }
 
   return (
