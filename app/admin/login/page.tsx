@@ -45,11 +45,7 @@ export default function AdminLogin() {
       } else {
         setError(data.error || 'Login failed')
       }
-    } catch (error) {
-      setError('Server connection error')
-    } finally {
-      setIsLoading(false)
-    }
+    } 
   }
 
   return (
