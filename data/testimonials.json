@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ahmed-hassan",
+    "name": "Ahmed Hassan",
+    "nameAr": "أحمد حسن",
+    "role": "CTO at CyberTech Solutions",
+    "roleAr": "المدير التقني في حلول سايبر تك",
+    "content": "Mohamed's cybersecurity expertise and penetration testing skills are outstanding. He helped us identify critical vulnerabilities and implement robust security measures that protected our entire infrastructure.",
+    "contentAr": "خبرة محمد في الأمن السيبراني ومهارات اختبار الاختراق متميزة. ساعدنا في تحديد الثغرات الحرجة وتنفيذ تدابير أمنية قوية حمت بنيتنا التحتية بالكامل.",
+    "avatar": "/images/testimonials/ahmed-hassan.svg",
+    "company": "CyberTech Solutions",
+    "rating": 5,
+    "order": 0,
+    "visible": false
+  },
+  {
+    "id": "fatima-ali",
+    "name": "Fatima Ali",
+    "nameAr": "فاطمة علي",
+    "role": "Product Manager at EduTech",
+    "roleAr": "مدير المنتج في إديو تك",
+    "content": "Mohamed's AI development skills transformed our learning platform. The intelligent features he implemented increased student engagement by 40% and improved learning outcomes significantly.",
+    "contentAr": "مهارات محمد في تطوير الذكاء الاصطناعي حولت منصة التعلم لدينا. الميزات الذكية التي نفذها زادت مشاركة الطلاب بنسبة 40% وحسنت نتائج التعلم بشكل كبير.",
+    "avatar": "/images/testimonials/fatima-ali.svg",
+    "company": "EduTech",
+    "rating": 5,
+    "order": 1,
+    "visible": false
+  },
+  {
+    "id": "omar-mahmoud",
+    "name": "Omar Mahmoud",
+    "nameAr": "عمر محمود",
+    "role": "Lead Developer at MobileFirst",
+    "roleAr": "المطور الرئيسي في موبايل فيرست",
+    "content": "Working with Mohamed on our Android applications was exceptional. His mobile development expertise and attention to performance optimization delivered apps that users love.",
+    "contentAr": "العمل مع محمد على تطبيقات الأندرويد لدينا كان استثنائياً. خبرته في تطوير المحمول واهتمامه بتحسين الأداء أنتج تطبيقات يحبها المستخدمون.",
+    "avatar": "/images/testimonials/omar-mahmoud.svg",
+    "company": "MobileFirst",
+    "rating": 5,
+    "order": 2,
+    "visible": true
+  },
+  {
+    "id": "nour-ibrahim",
+    "name": "Nour Ibrahim",
+    "nameAr": "نور إبراهيم",
+    "role": "UI/UX Designer at CreativeStudio",
+    "roleAr": "مصمم واجهات المستخدم في الاستوديو الإبداعي",
+    "content": "Mohamed's ability to translate complex designs into functional code is remarkable. He understands both the technical and creative aspects, delivering pixel-perfect implementations every time.",
+    "contentAr": "قدرة محمد على ترجمة التصاميم المعقدة إلى كود وظيفي رائعة. يفهم الجوانب التقنية والإبداعية، ويقدم تنفيذات مثالية للبكسل في كل مرة.",
+    "avatar": "/images/testimonials/nour-ibrahim.svg",
+    "company": "CreativeStudio",
+    "rating": 5,
+    "order": 3,
+    "visible": true
+  },
+  {
+    "id": "youssef-ahmed",
+    "name": "Youssef Ahmed",
+    "nameAr": "يوسف أحمد",
+    "role": "System Administrator at EnterpriseCorp",
+    "roleAr": "مدير الأنظمة في إنتيربرايز كورب",
+    "content": "Mohamed's desktop application development skills are top-notch. The enterprise software he built for us handles complex data processing with incredible efficiency and reliability.",
+    "contentAr": "مهارات محمد في تطوير تطبيقات سطح المكتب من الدرجة الأولى. البرنامج المؤسسي الذي بناه لنا يتعامل مع معالجة البيانات المعقدة بكفاءة وموثوقية لا تصدق.",
+    "avatar": "/images/testimonials/youssef-ahmed.svg",
+    "company": "EnterpriseCorp",
+    "rating": 5,
+    "order": 4,
+    "visible": true
+  }
+]

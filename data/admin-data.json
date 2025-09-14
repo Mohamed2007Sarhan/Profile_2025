@@ -1,0 +1,792 @@
+{
+  "settings": {
+    "showFeedback": true,
+    "showProjects": true,
+    "showServices": true,
+    "siteTitle": "Mohamed Sarhan",
+    "siteTitleAr": "محمد سرحان",
+    "siteDescription": "Full Stack Developer & AI Engineer",
+    "siteDescriptionAr": "مطور Full Stack ومهندس ذكاء اصطناعي",
+    "contactEmail": "prof7mohamedsarhan@gmail.com",
+    "contactPhone": "+201040922321",
+    "socialLinks": {
+      "github": "https://github.com/Mohamed2007Sarhan",
+      "linkedin": "https://www.linkedin.com/in/mohamed-sarhan",
+      "twitter": "https://twitter.com/mohamed_sarhan"
+    }
+  },
+  "projects": [
+    {
+      "id": "ibrand-frontend",
+      "title": "iBrand Frontend",
+      "titleAr": "iBrand Frontend",
+      "slug": "ibrand-frontend",
+      "short": "Modern e-commerce platform frontend built with React and TypeScript. Features advanced UI components, payment integration, and responsive design.",
+      "shortAr": "واجهة منصة تجارة إلكترونية حديثة مبنية بـ React و TypeScript. تتميز بمكونات واجهة متقدمة وتكامل الدفع وتصميم متجاوب.",
+      "cover": "/images/projects/ibrand-frontend.svg",
+      "tags": [
+        "React",
+        "TypeScript",
+        "E-commerce",
+        "UI/UX",
+        "Frontend"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/ibrand_front_react",
+      "repo": "https://github.com/Mohamed2007Sarhan/ibrand_front_react",
+      "caseStudy": "/projects/ibrand-frontend",
+      "githubStats": {
+        "stars": 8,
+        "forks": 3,
+        "watchers": 5,
+        "issues": 1,
+        "lastUpdated": "2024-01-15"
+      },
+      "stats": {
+        "perf": "Modern Frontend",
+        "users": "E-commerce Users",
+        "impact": "Enhanced Shopping Experience"
+      },
+      "order": 0,
+      "visible": true
+    },
+    {
+      "id": "ibrand-data",
+      "title": "iBrand Data",
+      "titleAr": "iBrand Data",
+      "slug": "ibrand-data",
+      "short": "Backend data management system for iBrand e-commerce platform. Handles product data, user management, and API endpoints.",
+      "shortAr": "نظام إدارة البيانات الخلفي لمنصة iBrand التجارية. يتعامل مع بيانات المنتجات وإدارة المستخدمين ونقاط نهاية API.",
+      "cover": "/images/projects/ibrand-data.svg",
+      "tags": [
+        "TypeScript",
+        "Node.js",
+        "Database",
+        "API",
+        "Backend"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/ibrand_data",
+      "repo": "https://github.com/Mohamed2007Sarhan/ibrand_data",
+      "caseStudy": "/projects/ibrand-data",
+      "githubStats": {
+        "stars": 5,
+        "forks": 2,
+        "watchers": 3,
+        "issues": 0,
+        "lastUpdated": "2024-01-15"
+      },
+      "stats": {
+        "perf": "Data Management",
+        "users": "Backend Services",
+        "impact": "Efficient Data Handling"
+      },
+      "order": 1,
+      "visible": true
+    },
+    {
+      "id": "workspace-frontend",
+      "title": "Workspace Frontend",
+      "titleAr": "Workspace Frontend",
+      "slug": "workspace-frontend",
+      "short": "Collaborative workspace frontend application with real-time features, team management, and project tracking capabilities.",
+      "shortAr": "تطبيق واجهة مساحة عمل تعاونية مع ميزات فورية وإدارة الفريق وقدرات تتبع المشاريع.",
+      "cover": "/images/projects/workspace-frontend.svg",
+      "tags": [
+        "TypeScript",
+        "React",
+        "Collaboration",
+        "Real-time",
+        "Frontend"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/workspace-frontend",
+      "repo": "https://github.com/Mohamed2007Sarhan/workspace-frontend",
+      "caseStudy": "/projects/workspace-frontend",
+      "githubStats": {
+        "stars": 12,
+        "forks": 4,
+        "watchers": 8,
+        "issues": 2,
+        "lastUpdated": "2024-08-12"
+      },
+      "stats": {
+        "perf": "Collaborative Platform",
+        "users": "Team Members",
+        "impact": "Enhanced Productivity"
+      },
+      "order": 2,
+      "visible": true
+    },
+    {
+      "id": "ai-maker",
+      "title": "AI.Maker",
+      "titleAr": "AI.Maker",
+      "slug": "ai-maker",
+      "short": "Comprehensive AI tool builder with custom models, machine learning capabilities, and advanced AI features for developers.",
+      "shortAr": "منشئ أدوات الذكاء الاصطناعي الشامل مع نماذج مخصصة وقدرات التعلم الآلي وميزات الذكاء الاصطناعي المتقدمة للمطورين.",
+      "cover": "/images/projects/ai-maker.svg",
+      "tags": [
+        "Python",
+        "AI",
+        "Machine Learning",
+        "Open Source",
+        "Developer Tools"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/Ai.Maker",
+      "repo": "https://github.com/Mohamed2007Sarhan/Ai.Maker",
+      "caseStudy": "/projects/ai-maker",
+      "githubStats": {
+        "stars": 25,
+        "forks": 8,
+        "watchers": 15,
+        "issues": 3,
+        "lastUpdated": "2024-07-28"
+      },
+      "stats": {
+        "perf": "AI Development",
+        "users": "AI Developers",
+        "impact": "Custom AI Solutions"
+      },
+      "order": 4,
+      "visible": true
+    },
+    {
+      "id": "ghostmeet-ai",
+      "title": "GhostMeet.AI",
+      "titleAr": "GhostMeet.AI",
+      "slug": "ghostmeet-ai",
+      "short": "AI-powered meeting assistant with automated transcription, smart summaries, and intelligent meeting insights.",
+      "shortAr": "مساعد اجتماعات مدعوم بالذكاء الاصطناعي مع نسخ تلقائي وملخصات ذكية ورؤى اجتماعية ذكية.",
+      "cover": "/images/projects/ghostmeet-ai.svg",
+      "tags": [
+        "TypeScript",
+        "AI",
+        "Meeting Assistant",
+        "Transcription",
+        "Productivity"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/GhostMeet.AI",
+      "repo": "https://github.com/Mohamed2007Sarhan/GhostMeet.AI",
+      "caseStudy": "/projects/ghostmeet-ai",
+      "githubStats": {
+        "stars": 18,
+        "forks": 6,
+        "watchers": 12,
+        "issues": 1,
+        "lastUpdated": "2024-07-28"
+      },
+      "stats": {
+        "perf": "AI Assistant",
+        "users": "Business Professionals",
+        "impact": "Meeting Efficiency"
+      },
+      "order": 5,
+      "visible": true
+    },
+    {
+      "id": "new-profile2025",
+      "title": "New Profile 2025",
+      "titleAr": "الملف الشخصي الجديد 2025",
+      "slug": "new-profile2025",
+      "short": "Modern portfolio website built with JavaScript, featuring responsive design, animations, and professional presentation.",
+      "shortAr": "موقع ملف شخصي حديث مبنى بـ JavaScript، يتميز بتصميم متجاوب ورسوم متحركة وعرض مهني.",
+      "cover": "/images/projects/new-profile2025.svg",
+      "tags": [
+        "JavaScript",
+        "Portfolio",
+        "Responsive",
+        "Animation",
+        "Personal"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/New-Profile2025",
+      "repo": "https://github.com/Mohamed2007Sarhan/New-Profile2025",
+      "caseStudy": "/projects/new-profile2025",
+      "githubStats": {
+        "stars": 15,
+        "forks": 5,
+        "watchers": 10,
+        "issues": 2,
+        "lastUpdated": "2024-07-21"
+      },
+      "stats": {
+        "perf": "Portfolio Website",
+        "users": "Personal Branding",
+        "impact": "Professional Presentation"
+      },
+      "order": 6,
+      "visible": true
+    },
+    {
+      "id": "nextjs-app-bootstrap",
+      "title": "Next.js App Bootstrap",
+      "titleAr": "Next.js App Bootstrap",
+      "slug": "nextjs-app-bootstrap",
+      "short": "Bootstrap template for Next.js applications with pre-configured setup, common components, and best practices.",
+      "shortAr": "قالب Bootstrap لتطبيقات Next.js مع إعداد مسبق ومكونات شائعة وأفضل الممارسات.",
+      "cover": "/images/projects/nextjs-app-bootstrap.svg",
+      "tags": [
+        "JavaScript",
+        "Next.js",
+        "Bootstrap",
+        "Template",
+        "Starter"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/nextjs-app-bootstrap",
+      "repo": "https://github.com/Mohamed2007Sarhan/nextjs-app-bootstrap",
+      "caseStudy": "/projects/nextjs-app-bootstrap",
+      "githubStats": {
+        "stars": 8,
+        "forks": 3,
+        "watchers": 5,
+        "issues": 1,
+        "lastUpdated": "2024-07-18"
+      },
+      "stats": {
+        "perf": "Development Template",
+        "users": "Developers",
+        "impact": "Faster Development"
+      },
+      "order": 7,
+      "visible": true
+    },
+    {
+      "id": "proteamhub",
+      "title": "ProTeamHub",
+      "titleAr": "ProTeamHub",
+      "slug": "proteamhub",
+      "short": "Professional team collaboration platform with project management, communication tools, and productivity features.",
+      "shortAr": "منصة تعاون فريق مهنية مع إدارة المشاريع وأدوات التواصل وميزات الإنتاجية.",
+      "cover": "/images/projects/proteamhub.svg",
+      "tags": [
+        "Hack",
+        "Team Collaboration",
+        "Project Management",
+        "Productivity"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/proteamhub",
+      "repo": "https://github.com/Mohamed2007Sarhan/proteamhub",
+      "caseStudy": "/projects/proteamhub",
+      "githubStats": {
+        "stars": 22,
+        "forks": 7,
+        "watchers": 15,
+        "issues": 4,
+        "lastUpdated": "2024-03-01"
+      },
+      "stats": {
+        "perf": "Team Platform",
+        "users": "Professional Teams",
+        "impact": "Enhanced Collaboration"
+      },
+      "order": 8,
+      "visible": true
+    },
+    {
+      "id": "profile-mohamed-sarhan",
+      "title": "Profile Mohamed Sarhan",
+      "titleAr": "الملف الشخصي محمد سرحان",
+      "slug": "profile-mohamed-sarhan",
+      "short": "Personal portfolio website showcasing professional work, skills, and achievements with modern design and animations.",
+      "shortAr": "موقع ملف شخصي يعرض العمل المهني والمهارات والإنجازات مع تصميم حديث ورسوم متحركة.",
+      "cover": "/images/projects/profile-mohamed-sarhan.svg",
+      "tags": [
+        "TypeScript",
+        "Portfolio",
+        "Personal",
+        "Professional",
+        "Showcase"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/Profile-Mohamed-Sarhan",
+      "repo": "https://github.com/Mohamed2007Sarhan/Profile-Mohamed-Sarhan",
+      "caseStudy": "/projects/profile-mohamed-sarhan",
+      "githubStats": {
+        "stars": 30,
+        "forks": 12,
+        "watchers": 20,
+        "issues": 2,
+        "lastUpdated": "2024-12-26"
+      },
+      "stats": {
+        "perf": "Personal Brand",
+        "users": "Professional Network",
+        "impact": "Career Development"
+      },
+      "order": 9,
+      "visible": true
+    },
+    {
+      "id": "pov-wormgpt-library",
+      "title": "POV WormGPT Library",
+      "titleAr": "مكتبة POV WormGPT",
+      "slug": "pov-wormgpt-library",
+      "short": "Python library for WormGPT integration with advanced features for AI-powered text generation and processing.",
+      "shortAr": "مكتبة Python لتكامل WormGPT مع ميزات متقدمة لتوليد ومعالجة النصوص المدعومة بالذكاء الاصطناعي.",
+      "cover": "/images/projects/wormgpt-library.svg",
+      "tags": [
+        "Python",
+        "AI",
+        "Library",
+        "Text Generation",
+        "Open Source"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/Pov-WormGpt-Library",
+      "repo": "https://github.com/Mohamed2007Sarhan/Pov-WormGpt-Library",
+      "caseStudy": "/projects/pov-wormgpt-library",
+      "githubStats": {
+        "stars": 45,
+        "forks": 18,
+        "watchers": 35,
+        "issues": 5,
+        "lastUpdated": "2024-09-27"
+      },
+      "stats": {
+        "perf": "AI Library",
+        "users": "AI Developers",
+        "impact": "Text Processing"
+      },
+      "order": 10,
+      "visible": true
+    },
+    {
+      "id": "dr-hoda",
+      "title": "Dr. Hoda",
+      "titleAr": "د. هدى",
+      "slug": "dr-hoda",
+      "short": "Medical website for Dr. Hoda featuring appointment booking, patient information, and medical services.",
+      "shortAr": "موقع طبي للدكتورة هدى يتميز بحجز المواعيد ومعلومات المرضى والخدمات الطبية.",
+      "cover": "/images/projects/dr-hoda.svg",
+      "tags": [
+        "HTML",
+        "Medical",
+        "Healthcare",
+        "Appointment",
+        "Website"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/dr-hoda",
+      "repo": "https://github.com/Mohamed2007Sarhan/dr-hoda",
+      "caseStudy": "/projects/dr-hoda",
+      "githubStats": {
+        "stars": 6,
+        "forks": 2,
+        "watchers": 4,
+        "issues": 1,
+        "lastUpdated": "2024-07-20"
+      },
+      "stats": {
+        "perf": "Medical Website",
+        "users": "Patients",
+        "impact": "Healthcare Access"
+      },
+      "order": 11,
+      "visible": true
+    },
+    {
+      "id": "profile-php",
+      "title": "Profile PHP",
+      "titleAr": "الملف الشخصي PHP",
+      "slug": "profile-php",
+      "short": "Personal portfolio website built with PHP featuring dynamic content management and professional presentation.",
+      "shortAr": "موقع ملف شخصي مبنى بـ PHP يتميز بإدارة المحتوى الديناميكي والعرض المهني.",
+      "cover": "/images/projects/profile-php.svg",
+      "tags": [
+        "PHP",
+        "Portfolio",
+        "Dynamic",
+        "Personal",
+        "Backend"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/profile",
+      "repo": "https://github.com/Mohamed2007Sarhan/profile",
+      "caseStudy": "/projects/profile-php",
+      "githubStats": {
+        "stars": 4,
+        "forks": 1,
+        "watchers": 3,
+        "issues": 0,
+        "lastUpdated": "2024-06-19"
+      },
+      "stats": {
+        "perf": "PHP Portfolio",
+        "users": "Personal Brand",
+        "impact": "Dynamic Content"
+      },
+      "order": 12,
+      "visible": true
+    },
+    {
+      "id": "teacher-php",
+      "title": "Teacher PHP",
+      "titleAr": "معلم PHP",
+      "slug": "teacher-php",
+      "short": "Educational platform for teachers with course management, student tracking, and learning resources.",
+      "shortAr": "منصة تعليمية للمعلمين مع إدارة الدورات وتتبع الطلاب والموارد التعليمية.",
+      "cover": "/images/projects/teacher-php.svg",
+      "tags": [
+        "PHP",
+        "Education",
+        "Learning",
+        "Teachers",
+        "Platform"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/teacther",
+      "repo": "https://github.com/Mohamed2007Sarhan/teacther",
+      "caseStudy": "/projects/teacher-php",
+      "githubStats": {
+        "stars": 7,
+        "forks": 2,
+        "watchers": 5,
+        "issues": 1,
+        "lastUpdated": "2024-06-19"
+      },
+      "stats": {
+        "perf": "Educational Platform",
+        "users": "Teachers & Students",
+        "impact": "Enhanced Learning"
+      },
+      "order": 13,
+      "visible": true
+    },
+    {
+      "id": "random-ip",
+      "title": "Random IP",
+      "titleAr": "عنوان IP عشوائي",
+      "slug": "random-ip",
+      "short": "Python tool for generating random IP addresses with various configurations and network testing capabilities.",
+      "shortAr": "أداة Python لتوليد عناوين IP عشوائية مع تكوينات متنوعة وقدرات اختبار الشبكة.",
+      "cover": "/images/projects/random-ip.svg",
+      "tags": [
+        "Python",
+        "Network",
+        "Testing",
+        "IP Address",
+        "Tool"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/random-ip",
+      "repo": "https://github.com/Mohamed2007Sarhan/random-ip",
+      "caseStudy": "/projects/random-ip",
+      "githubStats": {
+        "stars": 12,
+        "forks": 4,
+        "watchers": 8,
+        "issues": 2,
+        "lastUpdated": "2024-06-19"
+      },
+      "stats": {
+        "perf": "Network Tool",
+        "users": "Network Administrators",
+        "impact": "Network Testing"
+      },
+      "order": 14,
+      "visible": true
+    },
+    {
+      "id": "network-tool",
+      "title": "Network Tool",
+      "titleAr": "أداة الشبكة",
+      "slug": "network-tool",
+      "short": "Advanced network analysis and testing tool built with C++ for performance monitoring and security assessment.",
+      "shortAr": "أداة تحليل واختبار شبكة متقدمة مبنية بـ C++ لمراقبة الأداء وتقييم الأمان.",
+      "cover": "/images/projects/network-tool.svg",
+      "tags": [
+        "C++",
+        "Network",
+        "Security",
+        "Analysis",
+        "Performance"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/network-tool",
+      "repo": "https://github.com/Mohamed2007Sarhan/network-tool",
+      "caseStudy": "/projects/network-tool",
+      "githubStats": {
+        "stars": 20,
+        "forks": 8,
+        "watchers": 15,
+        "issues": 3,
+        "lastUpdated": "2024-06-19"
+      },
+      "stats": {
+        "perf": "Network Analysis",
+        "users": "Security Professionals",
+        "impact": "Network Security"
+      },
+      "order": 15,
+      "visible": true
+    },
+    {
+      "id": "gpt-3",
+      "title": "GPT-3 Integration",
+      "titleAr": "تكامل GPT-3",
+      "slug": "gpt-3",
+      "short": "OpenAI GPT-3 integration project with custom implementations and advanced AI text processing capabilities.",
+      "shortAr": "مشروع تكامل OpenAI GPT-3 مع تطبيقات مخصصة وقدرات معالجة النصوص بالذكاء الاصطناعي المتقدمة.",
+      "cover": "/images/projects/gpt-3.svg",
+      "tags": [
+        "AI",
+        "GPT-3",
+        "OpenAI",
+        "Text Processing",
+        "Integration"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/gpt-3",
+      "repo": "https://github.com/Mohamed2007Sarhan/gpt-3",
+      "caseStudy": "/projects/gpt-3",
+      "githubStats": {
+        "stars": 35,
+        "forks": 12,
+        "watchers": 25,
+        "issues": 4,
+        "lastUpdated": "2024-06-19"
+      },
+      "stats": {
+        "perf": "AI Integration",
+        "users": "AI Developers",
+        "impact": "Advanced Text Processing"
+      },
+      "order": 16,
+      "visible": true
+    },
+    {
+      "id": "wormgpt-api",
+      "title": "WormGPT API",
+      "titleAr": "WormGPT API",
+      "slug": "wormgpt-api",
+      "short": "RESTful API for WormGPT with advanced features for text generation, processing, and AI-powered content creation.",
+      "shortAr": "API RESTful لـ WormGPT مع ميزات متقدمة لتوليد النصوص والمعالجة وإنشاء المحتوى المدعوم بالذكاء الاصطناعي.",
+      "cover": "/images/projects/wormgpt-api.svg",
+      "tags": [
+        "Python",
+        "API",
+        "WormGPT",
+        "RESTful",
+        "AI"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/wormgpt-api",
+      "repo": "https://github.com/Mohamed2007Sarhan/wormgpt-api",
+      "caseStudy": "/projects/wormgpt-api",
+      "githubStats": {
+        "stars": 28,
+        "forks": 10,
+        "watchers": 18,
+        "issues": 2,
+        "lastUpdated": "2024-06-19"
+      },
+      "stats": {
+        "perf": "AI API",
+        "users": "Developers",
+        "impact": "AI Content Generation"
+      },
+      "order": 17,
+      "visible": true
+    },
+    {
+      "id": "btc-tools",
+      "title": "BTC Tools",
+      "titleAr": "أدوات BTC",
+      "slug": "btc-tools",
+      "short": "Bitcoin analysis and trading tools with advanced features for cryptocurrency market monitoring and analysis.",
+      "shortAr": "أدوات تحليل وتداول البيتكوين مع ميزات متقدمة لمراقبة وتحليل سوق العملات المشفرة.",
+      "cover": "/images/projects/btc-tools.svg",
+      "tags": [
+        "Python",
+        "Bitcoin",
+        "Cryptocurrency",
+        "Trading",
+        "Private"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/BTC-Tools",
+      "repo": "https://github.com/Mohamed2007Sarhan/BTC-Tools",
+      "caseStudy": "/projects/btc-tools",
+      "githubStats": {
+        "stars": 0,
+        "forks": 0,
+        "watchers": 0,
+        "issues": 0,
+        "lastUpdated": "2024-06-19"
+      },
+      "stats": {
+        "perf": "Crypto Tools",
+        "users": "Traders",
+        "impact": "Market Analysis"
+      },
+      "order": 18,
+      "visible": true
+    },
+    {
+      "id": "socialfocel",
+      "title": "SocialFocel",
+      "titleAr": "SocialFocel",
+      "slug": "socialfocel",
+      "short": "Social media management platform with advanced features for content scheduling, analytics, and engagement tracking.",
+      "shortAr": "منصة إدارة وسائل التواصل الاجتماعي مع ميزات متقدمة لجدولة المحتوى والتحليلات وتتبع التفاعل.",
+      "cover": "/images/projects/socialfocel.svg",
+      "tags": [
+        "PHP",
+        "Social Media",
+        "Management",
+        "Analytics",
+        "Scheduling"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/SocialFocel",
+      "repo": "https://github.com/Mohamed2007Sarhan/SocialFocel",
+      "caseStudy": "/projects/socialfocel",
+      "githubStats": {
+        "stars": 11,
+        "forks": 4,
+        "watchers": 7,
+        "issues": 1,
+        "lastUpdated": "2024-06-19"
+      },
+      "stats": {
+        "perf": "Social Media Platform",
+        "users": "Content Creators",
+        "impact": "Enhanced Engagement"
+      },
+      "order": 21,
+      "visible": true
+    },
+    {
+      "id": "courses-web",
+      "title": "Courses Web",
+      "titleAr": "دورات الويب",
+      "slug": "courses-web",
+      "short": "Online learning platform with course management, student tracking, and interactive educational content.",
+      "shortAr": "منصة تعلم عبر الإنترنت مع إدارة الدورات وتتبع الطلاب والمحتوى التعليمي التفاعلي.",
+      "cover": "/images/projects/courses-web.svg",
+      "tags": [
+        "PHP",
+        "Education",
+        "Learning",
+        "Courses",
+        "Platform"
+      ],
+      "year": 2024,
+      "live": "https://github.com/Mohamed2007Sarhan/Cources-web",
+      "repo": "https://github.com/Mohamed2007Sarhan/Cources-web",
+      "caseStudy": "/projects/courses-web",
+      "githubStats": {
+        "stars": 18,
+        "forks": 7,
+        "watchers": 12,
+        "issues": 3,
+        "lastUpdated": "2024-06-19"
+      },
+      "stats": {
+        "perf": "Learning Platform",
+        "users": "Students & Teachers",
+        "impact": "Enhanced Education"
+      },
+      "order": 22,
+      "visible": true
+    }
+  ],
+  "services": [
+    {
+      "id": "web-development",
+      "title": "Web Development",
+      "titleAr": "تطوير المواقع",
+      "description": "Full-stack web development using modern technologies like React, Next.js, Node.js, and TypeScript.",
+      "descriptionAr": "تطوير مواقع ويب كاملة باستخدام تقنيات حديثة مثل React و Next.js و Node.js و TypeScript.",
+      "icon": "💻",
+      "order": 0,
+      "visible": true
+    },
+    {
+      "id": "mobile-development",
+      "title": "Mobile Development",
+      "titleAr": "تطوير التطبيقات",
+      "description": "Cross-platform mobile app development using React Native and Flutter.",
+      "descriptionAr": "تطوير تطبيقات الهاتف المحمول متعددة المنصات باستخدام React Native و Flutter.",
+      "icon": "📱",
+      "order": 1,
+      "visible": true
+    },
+    {
+      "id": "ai-development",
+      "title": "AI Development",
+      "titleAr": "تطوير الذكاء الاصطناعي",
+      "description": "Artificial Intelligence and Machine Learning solutions using Python and TensorFlow.",
+      "descriptionAr": "حلول الذكاء الاصطناعي والتعلم الآلي باستخدام Python و TensorFlow.",
+      "icon": "🤖",
+      "order": 2,
+      "visible": true
+    },
+    {
+      "id": "cybersecurity",
+      "title": "Cybersecurity",
+      "titleAr": "الأمن السيبراني",
+      "description": "Penetration testing, security auditing, and vulnerability assessment services.",
+      "descriptionAr": "خدمات اختبار الاختراق ومراجعة الأمان وتقييم الثغرات الأمنية.",
+      "icon": "🔒",
+      "order": 2,
+      "visible": true
+    },
+    {
+      "id": "consulting",
+      "title": "Technical Consulting",
+      "titleAr": "الاستشارات التقنية",
+      "description": "Expert technical consulting for software architecture and development strategies.",
+      "descriptionAr": "استشارات تقنية متخصصة في هندسة البرمجيات واستراتيجيات التطوير.",
+      "icon": "💡",
+      "order": 4,
+      "visible": true
+    },
+    {
+      "id": "training",
+      "title": "Technical Training",
+      "titleAr": "التدريب التقني",
+      "description": "Professional training programs for modern web technologies and best practices.",
+      "descriptionAr": "برامج تدريب مهنية لتقنيات الويب الحديثة وأفضل الممارسات.",
+      "icon": "🎓",
+      "order": 5,
+      "visible": true
+    }
+  ],
+  "feedbacks": [
+    {
+      "name": "reft",
+      "email": "sarhanmuhammad584@gmail.com",
+      "message": "بلرةلاهتيبخنلالينبخلنيخحبق",
+      "rating": 5,
+      "status": "new",
+      "visible": false,
+      "createdAt": "2025-09-14T07:31:39.519Z",
+      "id": "1757835099519"
+    },
+    {
+      "name": "reftsdf",
+      "email": "sarhanmuhammad584@gmail.com",
+      "message": "يقلفتهيقتفتثقهقتلفهثتقهفتثهخح",
+      "rating": 3,
+      "status": "new",
+      "visible": false,
+      "createdAt": "2025-09-14T07:29:15.694Z",
+      "id": "1757834955694"
+    },
+    {
+      "name": "reft",
+      "email": "mehetev812@misehub.com",
+      "message": "تىعتاعاععتهعتهعختهعتهعخهخ",
+      "rating": 3,
+      "status": "new",
+      "createdAt": "2025-09-14T05:34:12.033Z",
+      "id": "1757828052033"
+    }
+  ]
+}

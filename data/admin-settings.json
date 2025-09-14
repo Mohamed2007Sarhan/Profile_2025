@@ -1,0 +1,28 @@
+{
+  "showFeedback": true,
+  "showProjects": true,
+  "showServices": true,
+  "siteTitle": "Mohamed Sarhan",
+  "siteTitleAr": "محمد سرحان",
+  "siteDescription": "Full Stack Developer & AI Engineer",
+  "siteDescriptionAr": "مطور Full Stack ومهندس ذكاء اصطناعي",
+  "siteKeywords": "web development, mobile development, AI, machine learning, full stack",
+  "siteKeywordsAr": "تطوير مواقع, تطوير تطبيقات, ذكاء اصطناعي, تعلم آلة, مطور كامل",
+  "contactEmail": "mohamed@example.com",
+  "contactPhone": "+1234567890",
+  "socialLinks": {
+    "github": "https://github.com/Mohamed2007Sarhan",
+    "linkedin": "https://linkedin.com/in/mohamed-sarhan",
+    "twitter": "https://twitter.com/mohamed_sarhan"
+  },
+  "analytics": {
+    "googleAnalytics": "",
+    "googleTagManager": ""
+  },
+  "seo": {
+    "metaDescription": "Professional portfolio of Mohamed Sarhan - Full Stack Developer specializing in web development, mobile apps, and AI solutions.",
+    "metaDescriptionAr": "الملف الشخصي المهني لمحمد سرحان - مطور Full Stack متخصص في تطوير المواقع والتطبيقات وحلول الذكاء الاصطناعي.",
+    "ogImage": "/images/og-image.jpg",
+    "twitterCard": "summary_large_image"
+  }
+}
