@@ -15,6 +15,7 @@ import { FloatingParticles, FloatingElements } from "@/components/floating-parti
 import { Floating3DShapes } from "@/components/3d-effects"
 import { SiteSettingsProvider } from "@/components/site-settings-provider"
 import { LoadingAnimation } from "@/components/loading-animation"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function HomePage() {
   return (
@@ -37,7 +38,9 @@ export default function HomePage() {
         <Feedback />
         <Contact />
         <Footer />
+        <SpeedInsights/>
       </main>
     </SiteSettingsProvider>
+    
   )
 }
