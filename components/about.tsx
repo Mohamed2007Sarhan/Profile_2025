@@ -180,10 +180,10 @@ export function About() {
                       </div>
                     </div>
 
-                    <Button onClick={downloadResume} className="w-full sm:w-auto">
+{/*                     <Button onClick={downloadResume} className="w-full sm:w-auto">
                       <Download className="w-4 h-4 mr-2" />
                       {t.downloadResume}
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
               </CardContent>
