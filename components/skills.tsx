@@ -235,9 +235,10 @@ export function Skills() {
                       >
                         <category.icon className={`w-6 h-6 ${category.color}`} />
                       </motion.div>
-                      <span className="text-lg group-hover:text-primary transition-colors duration-300">
+                      <<span className="text-lg text-white group-hover:text-primary transition-colors duration-300">
                         {language === "en" ? category.title : category.titleAr}
                       </span>
+
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
