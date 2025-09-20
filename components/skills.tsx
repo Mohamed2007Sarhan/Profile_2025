@@ -235,7 +235,7 @@ export function Skills() {
                       >
                         <category.icon className={`w-6 h-6 ${category.color}`} />
                       </motion.div>
-                      <span className="text-lg group-hover:text-primary transition-colors text-white duration-300">
+                      <span className="text-lg group-hover:text-primary transition-colors duration-300">
                         {language === "en" ? category.title : category.titleAr}
                       </span>
                     </CardTitle>
@@ -252,7 +252,7 @@ export function Skills() {
                         >
                           <Badge 
                             variant="secondary" 
-                            className={`text-xs hover:scale-105 transition-transform duration-200 ${category.bgColor} ${category.borderColor}`}
+                            className={`text-xs hover:scale-105 transition-transform duration-200 ${category.bgColor} ${category.borderColor} text-white`}
                           >
                             {skill.name}
                           </Badge>
