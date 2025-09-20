@@ -191,47 +191,7 @@ export function Footer() {
         <Separator />
 
         {/* Bottom Footer */}
-        <div className="py-6">
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-              className="flex items-center gap-2 text-sm text-muted-foreground"
-            >
-              <span>© 2024 Mohamed.</span>
-              <span>{t.rights}</span>
-              <span className="hidden sm:inline">•</span>
-              <span className="flex items-center gap-1">
-                {language === "en" ? "Built with" : "مبني بـ"}
-                <Heart className="w-3 h-3 text-red-500" />
-                {language === "en" ? "and" : "و"}
-                <Zap className="w-3 h-3 text-yellow-500" />
-              </span>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              viewport={{ once: true }}
-              className="flex items-center gap-4"
-            >
-              {/* Performance Badge */}
-              <Badge variant="outline" className="text-xs">
-                <Zap className="w-3 h-3 mr-1" />
-                {language === "en" ? "Lighthouse 95+" : "Lighthouse 95+"}
-              </Badge>
-
-              {/* Scroll to Top */}
-              <Button variant="ghost" size="sm" onClick={scrollToTop} className="p-2">
-                <ArrowUp className="w-4 h-4" />
-                <span className="sr-only">{language === "en" ? "Scroll to top" : "العودة للأعلى"}</span>
-              </Button>
-            </motion.div>
-          </div>
-        </div>
+       
       </div>
     </footer>
   )
