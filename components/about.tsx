@@ -108,8 +108,13 @@ export function About() {
 
   const downloadResume = () => {
     const link = document.createElement("a")
-    link.href = "/resume-mohamed.pdf"
-    link.download = "Mohamed-Resume.pdf"
+    if (language === "ar") {
+      link.href = "/resume-mohamed-ar.pdf"
+      link.download = "Mohamed-Resume-AR.pdf"
+    } else {
+      link.href = "/resume-mohamed-en.pdf"
+      link.download = "Mohamed-Resume-EN.pdf"
+    }
     link.click()
   }
 
