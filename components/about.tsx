@@ -180,6 +180,11 @@ export function About() {
                       </div>
                     </div>
 
+                    <Button onClick={downloadResume} className="flex items-center gap-2">
+                      <Download className="w-4 h-4" />
+                        {language === "en" ? "Download Resume" : "تحميل السيرة الذاتية"}
+                    </Button>
+
                     
                   </div>
                 </div>
