@@ -13,7 +13,7 @@ const certifications = [
     titleAr: "بكالوريوس طب الأسنان",
     issuer: "King Salman International University",
     issuerAr: "جامعة الملك سلمان الدولية",
-    year: "2024-2029",
+    year: "2024-2032",
     status: "In Progress",
     statusAr: "قيد الدراسة",
     icon: Stethoscope,
@@ -246,6 +246,7 @@ export function Certifications() {
     </section>
   )
 }
+
 
 
 
