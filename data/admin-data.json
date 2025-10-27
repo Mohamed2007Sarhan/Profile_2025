@@ -17,6 +17,74 @@
   },
   "projects": [
     {
+      "id": "fireware-app",
+      "title": "Fireware App",
+      "titleAr": "تطبيق Fireware",
+      "slug": "fireware-app",
+      "short": "Advanced desktop app built with modern frameworks for system control, automation, and AI integration.",
+      "shortAr": "تطبيق سطح مكتب متقدم تم بناؤه بأُطر عمل حديثة للتحكم في النظام والأتمتة والتكامل مع الذكاء الاصطناعي.",
+      "cover": "/images/1234.jpg",
+      "tags": [
+        "Python",
+        "AI",
+        "Automation",
+        "Desktop App",
+        "Security"
+      ],
+      "year": 2025,
+      "live": "https://github.com/Mohamed2007Sarhan/Fireware-app",
+      "repo": "https://github.com/Mohamed2007Sarhan/Fireware-app",
+      "caseStudy": "/projects/fireware-app",
+      "githubStats": {
+        "stars": 7,
+        "forks": 3,
+        "watchers": 4,
+        "issues": 1,
+        "lastUpdated": "2025-01-10"
+      },
+      "stats": {
+        "perf": "System Automation",
+        "users": "Developers & Security Engineers",
+        "impact": "Streamlined workflow and intelligent system management"
+      },
+      "order": 0,
+      "visible": true
+    },
+    {
+      "id": "smart-ai-model-builder",
+      "title": "Smart AI Model Builder",
+      "titleAr": "منشئ النماذج الذكية للذكاء الاصطناعي",
+      "slug": "smart-ai-model-builder",
+      "short": "An intelligent platform for building, training, and deploying AI models with minimal coding.",
+      "shortAr": "منصة ذكية لبناء وتدريب ونشر نماذج الذكاء الاصطناعي بسهولة وبدون كود معقد.",
+      "cover": "/images/123.png",
+      "tags": [
+        "Python",
+        "AI",
+        "Machine Learning",
+        "Automation",
+        "Data Science"
+      ],
+      "year": 2025,
+      "live": "https://github.com/Mohamed2007Sarhan/Smart-AI-Model-Builder",
+      "repo": "https://github.com/Mohamed2007Sarhan/Smart-AI-Model-Builder",
+      "caseStudy": "/projects/smart-ai-model-builder",
+      "githubStats": {
+        "stars": 9,
+        "forks": 4,
+        "watchers": 5,
+        "issues": 0,
+        "lastUpdated": "2025-02-05"
+      },
+      "stats": {
+        "perf": "AI Model Building",
+        "users": "Data Scientists & Developers",
+        "impact": "Accelerated AI development with low-code automation"
+      },
+      "order": 1,
+      "visible": true
+    },
+    {
       "id": "ibrand-frontend",
       "title": "iBrand Frontend",
       "titleAr": "iBrand Frontend",
@@ -47,7 +115,7 @@
         "users": "E-commerce Users",
         "impact": "Enhanced Shopping Experience"
       },
-      "order": 0,
+      "order": 2,
       "visible": true
     },
     {
@@ -81,7 +149,7 @@
         "users": "Backend Services",
         "impact": "Efficient Data Handling"
       },
-      "order": 1,
+      "order": 3,
       "visible": true
     },
     {
@@ -115,7 +183,7 @@
         "users": "Team Members",
         "impact": "Enhanced Productivity"
       },
-      "order": 2,
+      "order": 4,
       "visible": true
     },
     {
@@ -149,7 +217,7 @@
         "users": "AI Developers",
         "impact": "Custom AI Solutions"
       },
-      "order": 4,
+      "order": 5,
       "visible": true
     },
     {
@@ -183,7 +251,7 @@
         "users": "Business Professionals",
         "impact": "Meeting Efficiency"
       },
-      "order": 5,
+      "order": 6,
       "visible": true
     },
     {
@@ -217,7 +285,7 @@
         "users": "Personal Branding",
         "impact": "Professional Presentation"
       },
-      "order": 6,
+      "order": 7,
       "visible": true
     },
     {
@@ -251,7 +319,7 @@
         "users": "Developers",
         "impact": "Faster Development"
       },
-      "order": 7,
+      "order": 8,
       "visible": true
     },
     {
@@ -284,7 +352,7 @@
         "users": "Professional Teams",
         "impact": "Enhanced Collaboration"
       },
-      "order": 8,
+      "order": 9,
       "visible": true
     },
     {
@@ -318,7 +386,7 @@
         "users": "Professional Network",
         "impact": "Career Development"
       },
-      "order": 9,
+      "order": 10,
       "visible": true
     },
     {
@@ -352,7 +420,7 @@
         "users": "AI Developers",
         "impact": "Text Processing"
       },
-      "order": 10,
+      "order": 11,
       "visible": true
     },
     {
@@ -386,7 +454,7 @@
         "users": "Patients",
         "impact": "Healthcare Access"
       },
-      "order": 11,
+      "order": 12,
       "visible": true
     },
     {
@@ -420,7 +488,7 @@
         "users": "Personal Brand",
         "impact": "Dynamic Content"
       },
-      "order": 12,
+      "order": 13,
       "visible": true
     },
     {
@@ -454,7 +522,7 @@
         "users": "Teachers & Students",
         "impact": "Enhanced Learning"
       },
-      "order": 13,
+      "order": 14,
       "visible": true
     },
     {
@@ -488,7 +556,7 @@
         "users": "Network Administrators",
         "impact": "Network Testing"
       },
-      "order": 14,
+      "order": 15,
       "visible": true
     },
     {
@@ -522,7 +590,7 @@
         "users": "Security Professionals",
         "impact": "Network Security"
       },
-      "order": 15,
+      "order": 16,
       "visible": true
     },
     {
@@ -556,7 +624,7 @@
         "users": "AI Developers",
         "impact": "Advanced Text Processing"
       },
-      "order": 16,
+      "order": 17,
       "visible": true
     },
     {
@@ -590,7 +658,7 @@
         "users": "Developers",
         "impact": "AI Content Generation"
       },
-      "order": 17,
+      "order": 18,
       "visible": true
     },
     {
@@ -624,7 +692,7 @@
         "users": "Traders",
         "impact": "Market Analysis"
       },
-      "order": 18,
+      "order": 19,
       "visible": true
     },
     {
@@ -658,7 +726,7 @@
         "users": "Content Creators",
         "impact": "Enhanced Engagement"
       },
-      "order": 21,
+      "order": 20,
       "visible": true
     },
     {
@@ -692,7 +760,7 @@
         "users": "Students & Teachers",
         "impact": "Enhanced Education"
       },
-      "order": 22,
+      "order": 21,
       "visible": true
     }
   ],
@@ -734,7 +802,7 @@
       "description": "Penetration testing, security auditing, and vulnerability assessment services.",
       "descriptionAr": "خدمات اختبار الاختراق ومراجعة الأمان وتقييم الثغرات الأمنية.",
       "icon": "🔒",
-      "order": 2,
+      "order": 3,
       "visible": true
     },
     {
@@ -775,7 +843,6 @@
       "message": "يقلفتهيقتفتثقهقتلفهثتقهفتثهخح",
       "rating": 3,
       "status": "new",
-      "visible": false,
       "createdAt": "2025-09-14T07:29:15.694Z",
       "id": "1757834955694"
     },
