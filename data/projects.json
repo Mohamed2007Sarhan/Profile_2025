@@ -1,56 +1,69 @@
 [
   {
-  "id": "fireware-app",
-  "title": "Fireware App",
-  "titleAr": "تطبيق Fireware",
-  "slug": "fireware-app",
-  "short": "Advanced desktop app built with modern frameworks for system control, automation, and AI integration.",
-  "shortAr": "تطبيق سطح مكتب متقدم تم بناؤه بأُطر عمل حديثة للتحكم في النظام والأتمتة والتكامل مع الذكاء الاصطناعي.",
-  "cover": "/images/projects/fireware-app.svg",
-  "tags": ["Python", "AI", "Automation", "Desktop App", "Security"],
-  "year": 2025,
-  "live": "https://github.com/Mohamed2007Sarhan/Fireware-app",
-  "repo": "https://github.com/Mohamed2007Sarhan/Fireware-app",
-  "caseStudy": "/projects/fireware-app",
-  "githubStats": {
-    "stars": 7,
-    "forks": 3,
-    "watchers": 4,
-    "issues": 1,
-    "lastUpdated": "2025-01-10"
+    "id": "fireware-app",
+    "title": "Fireware App",
+    "titleAr": "تطبيق Fireware",
+    "slug": "fireware-app",
+    "short": "Advanced desktop app built with modern frameworks for system control, automation, and AI integration.",
+    "shortAr": "تطبيق سطح مكتب متقدم تم بناؤه بأُطر عمل حديثة للتحكم في النظام والأتمتة والتكامل مع الذكاء الاصطناعي.",
+    "cover": "/images/projects/fireware-app.svg",
+    "tags": [
+      "Python",
+      "AI",
+      "Automation",
+      "Desktop App",
+      "Security"
+    ],
+    "year": 2025,
+    "live": "https://github.com/Mohamed2007Sarhan/Fireware-app",
+    "repo": "https://github.com/Mohamed2007Sarhan/Fireware-app",
+    "caseStudy": "/projects/fireware-app",
+    "githubStats": {
+      "stars": 7,
+      "forks": 3,
+      "watchers": 4,
+      "issues": 1,
+      "lastUpdated": "2025-01-10"
+    },
+    "stats": {
+      "perf": "System Automation",
+      "users": "Developers & Security Engineers",
+      "impact": "Streamlined workflow and intelligent system management"
+    }
   },
-  "stats": {
-    "perf": "System Automation",
-    "users": "Developers & Security Engineers",
-    "impact": "Streamlined workflow and intelligent system management"
-  }
-}
-{
-  "id": "smart-ai-model-builder",
-  "title": "Smart AI Model Builder",
-  "titleAr": "منشئ النماذج الذكية للذكاء الاصطناعي",
-  "slug": "smart-ai-model-builder",
-  "short": "An intelligent platform for building, training, and deploying AI models with minimal coding.",
-  "shortAr": "منصة ذكية لبناء وتدريب ونشر نماذج الذكاء الاصطناعي بسهولة وبدون كود معقد.",
-  "cover": "/images/projects/smart-ai-model-builder.svg",
-  "tags": ["Python", "AI", "Machine Learning", "Automation", "Data Science"],
-  "year": 2025,
-  "live": "https://github.com/Mohamed2007Sarhan/Smart-AI-Model-Builder",
-  "repo": "https://github.com/Mohamed2007Sarhan/Smart-AI-Model-Builder",
-  "caseStudy": "/projects/smart-ai-model-builder",
-  "githubStats": {
-    "stars": 9,
-    "forks": 4,
-    "watchers": 5,
-    "issues": 0,
-    "lastUpdated": "2025-02-05"
+  {
+
+    "id": "smart-ai-model-builder",
+    "title": "Smart AI Model Builder",
+    "titleAr": "منشئ النماذج الذكية للذكاء الاصطناعي",
+    "slug": "smart-ai-model-builder",
+    "short": "An intelligent platform for building, training, and deploying AI models with minimal coding.",
+    "shortAr": "منصة ذكية لبناء وتدريب ونشر نماذج الذكاء الاصطناعي بسهولة وبدون كود معقد.",
+    "cover": "/images/projects/smart-ai-model-builder.svg",
+    "tags": [
+      "Python",
+      "AI",
+      "Machine Learning",
+      "Automation",
+      "Data Science"
+    ],
+    "year": 2025,
+    "live": "https://github.com/Mohamed2007Sarhan/Smart-AI-Model-Builder",
+    "repo": "https://github.com/Mohamed2007Sarhan/Smart-AI-Model-Builder",
+    "caseStudy": "/projects/smart-ai-model-builder",
+    "githubStats": {
+      "stars": 9,
+      "forks": 4,
+      "watchers": 5,
+      "issues": 0,
+      "lastUpdated": "2025-02-05"
+    },
+    "stats": {
+      "perf": "AI Model Building",
+      "users": "Data Scientists & Developers",
+      "impact": "Accelerated AI development with low-code automation"
+    }
   },
-  "stats": {
-    "perf": "AI Model Building",
-    "users": "Data Scientists & Developers",
-    "impact": "Accelerated AI development with low-code automation"
-  }
-}
 
   {
     "id": "ibrand-frontend",
@@ -60,7 +73,13 @@
     "short": "Modern e-commerce platform frontend built with React and TypeScript. Features advanced UI components, payment integration, and responsive design.",
     "shortAr": "واجهة منصة تجارة إلكترونية حديثة مبنية بـ React و TypeScript. تتميز بمكونات واجهة متقدمة وتكامل الدفع وتصميم متجاوب.",
     "cover": "/images/projects/ibrand-frontend.svg",
-    "tags": ["React", "TypeScript", "E-commerce", "UI/UX", "Frontend"],
+    "tags": [
+      "React",
+      "TypeScript",
+      "E-commerce",
+      "UI/UX",
+      "Frontend"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/ibrand_front_react",
     "repo": "https://github.com/Mohamed2007Sarhan/ibrand_front_react",
@@ -86,7 +105,13 @@
     "short": "Backend data management system for iBrand e-commerce platform. Handles product data, user management, and API endpoints.",
     "shortAr": "نظام إدارة البيانات الخلفي لمنصة iBrand التجارية. يتعامل مع بيانات المنتجات وإدارة المستخدمين ونقاط نهاية API.",
     "cover": "/images/projects/ibrand-data.svg",
-    "tags": ["TypeScript", "Node.js", "Database", "API", "Backend"],
+    "tags": [
+      "TypeScript",
+      "Node.js",
+      "Database",
+      "API",
+      "Backend"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/ibrand_data",
     "repo": "https://github.com/Mohamed2007Sarhan/ibrand_data",
@@ -112,7 +137,13 @@
     "short": "Collaborative workspace frontend application with real-time features, team management, and project tracking capabilities.",
     "shortAr": "تطبيق واجهة مساحة عمل تعاونية مع ميزات فورية وإدارة الفريق وقدرات تتبع المشاريع.",
     "cover": "/images/projects/workspace-frontend.svg",
-    "tags": ["TypeScript", "React", "Collaboration", "Real-time", "Frontend"],
+    "tags": [
+      "TypeScript",
+      "React",
+      "Collaboration",
+      "Real-time",
+      "Frontend"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/workspace-frontend",
     "repo": "https://github.com/Mohamed2007Sarhan/workspace-frontend",
@@ -138,7 +169,13 @@
     "short": "Comprehensive AI tool builder with custom models, machine learning capabilities, and advanced AI features for developers.",
     "shortAr": "منشئ أدوات الذكاء الاصطناعي الشامل مع نماذج مخصصة وقدرات التعلم الآلي وميزات الذكاء الاصطناعي المتقدمة للمطورين.",
     "cover": "/images/projects/ai-maker.svg",
-    "tags": ["Python", "AI", "Machine Learning", "Open Source", "Developer Tools"],
+    "tags": [
+      "Python",
+      "AI",
+      "Machine Learning",
+      "Open Source",
+      "Developer Tools"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/Ai.Maker",
     "repo": "https://github.com/Mohamed2007Sarhan/Ai.Maker",
@@ -164,7 +201,13 @@
     "short": "AI-powered meeting assistant with automated transcription, smart summaries, and intelligent meeting insights.",
     "shortAr": "مساعد اجتماعات مدعوم بالذكاء الاصطناعي مع نسخ تلقائي وملخصات ذكية ورؤى اجتماعية ذكية.",
     "cover": "/images/projects/ghostmeet-ai.svg",
-    "tags": ["TypeScript", "AI", "Meeting Assistant", "Transcription", "Productivity"],
+    "tags": [
+      "TypeScript",
+      "AI",
+      "Meeting Assistant",
+      "Transcription",
+      "Productivity"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/GhostMeet.AI",
     "repo": "https://github.com/Mohamed2007Sarhan/GhostMeet.AI",
@@ -190,7 +233,13 @@
     "short": "Modern portfolio website built with JavaScript, featuring responsive design, animations, and professional presentation.",
     "shortAr": "موقع ملف شخصي حديث مبنى بـ JavaScript، يتميز بتصميم متجاوب ورسوم متحركة وعرض مهني.",
     "cover": "/images/projects/new-profile2025.svg",
-    "tags": ["JavaScript", "Portfolio", "Responsive", "Animation", "Personal"],
+    "tags": [
+      "JavaScript",
+      "Portfolio",
+      "Responsive",
+      "Animation",
+      "Personal"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/New-Profile2025",
     "repo": "https://github.com/Mohamed2007Sarhan/New-Profile2025",
@@ -216,7 +265,13 @@
     "short": "Bootstrap template for Next.js applications with pre-configured setup, common components, and best practices.",
     "shortAr": "قالب Bootstrap لتطبيقات Next.js مع إعداد مسبق ومكونات شائعة وأفضل الممارسات.",
     "cover": "/images/projects/nextjs-app-bootstrap.svg",
-    "tags": ["JavaScript", "Next.js", "Bootstrap", "Template", "Starter"],
+    "tags": [
+      "JavaScript",
+      "Next.js",
+      "Bootstrap",
+      "Template",
+      "Starter"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/nextjs-app-bootstrap",
     "repo": "https://github.com/Mohamed2007Sarhan/nextjs-app-bootstrap",
@@ -242,7 +297,12 @@
     "short": "Professional team collaboration platform with project management, communication tools, and productivity features.",
     "shortAr": "منصة تعاون فريق مهنية مع إدارة المشاريع وأدوات التواصل وميزات الإنتاجية.",
     "cover": "/images/projects/proteamhub.svg",
-    "tags": ["Hack", "Team Collaboration", "Project Management", "Productivity"],
+    "tags": [
+      "Hack",
+      "Team Collaboration",
+      "Project Management",
+      "Productivity"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/proteamhub",
     "repo": "https://github.com/Mohamed2007Sarhan/proteamhub",
@@ -268,7 +328,13 @@
     "short": "Personal portfolio website showcasing professional work, skills, and achievements with modern design and animations.",
     "shortAr": "موقع ملف شخصي يعرض العمل المهني والمهارات والإنجازات مع تصميم حديث ورسوم متحركة.",
     "cover": "/images/projects/profile-mohamed-sarhan.svg",
-    "tags": ["TypeScript", "Portfolio", "Personal", "Professional", "Showcase"],
+    "tags": [
+      "TypeScript",
+      "Portfolio",
+      "Personal",
+      "Professional",
+      "Showcase"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/Profile-Mohamed-Sarhan",
     "repo": "https://github.com/Mohamed2007Sarhan/Profile-Mohamed-Sarhan",
@@ -294,7 +360,13 @@
     "short": "Python library for WormGPT integration with advanced features for AI-powered text generation and processing.",
     "shortAr": "مكتبة Python لتكامل WormGPT مع ميزات متقدمة لتوليد ومعالجة النصوص المدعومة بالذكاء الاصطناعي.",
     "cover": "/images/projects/wormgpt-library.svg",
-    "tags": ["Python", "AI", "Library", "Text Generation", "Open Source"],
+    "tags": [
+      "Python",
+      "AI",
+      "Library",
+      "Text Generation",
+      "Open Source"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/Pov-WormGpt-Library",
     "repo": "https://github.com/Mohamed2007Sarhan/Pov-WormGpt-Library",
@@ -320,7 +392,13 @@
     "short": "Medical website for Dr. Hoda featuring appointment booking, patient information, and medical services.",
     "shortAr": "موقع طبي للدكتورة هدى يتميز بحجز المواعيد ومعلومات المرضى والخدمات الطبية.",
     "cover": "/images/projects/dr-hoda.svg",
-    "tags": ["HTML", "Medical", "Healthcare", "Appointment", "Website"],
+    "tags": [
+      "HTML",
+      "Medical",
+      "Healthcare",
+      "Appointment",
+      "Website"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/dr-hoda",
     "repo": "https://github.com/Mohamed2007Sarhan/dr-hoda",
@@ -346,7 +424,13 @@
     "short": "Personal portfolio website built with PHP featuring dynamic content management and professional presentation.",
     "shortAr": "موقع ملف شخصي مبنى بـ PHP يتميز بإدارة المحتوى الديناميكي والعرض المهني.",
     "cover": "/images/projects/profile-php.svg",
-    "tags": ["PHP", "Portfolio", "Dynamic", "Personal", "Backend"],
+    "tags": [
+      "PHP",
+      "Portfolio",
+      "Dynamic",
+      "Personal",
+      "Backend"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/profile",
     "repo": "https://github.com/Mohamed2007Sarhan/profile",
@@ -372,7 +456,13 @@
     "short": "Educational platform for teachers with course management, student tracking, and learning resources.",
     "shortAr": "منصة تعليمية للمعلمين مع إدارة الدورات وتتبع الطلاب والموارد التعليمية.",
     "cover": "/images/projects/teacher-php.svg",
-    "tags": ["PHP", "Education", "Learning", "Teachers", "Platform"],
+    "tags": [
+      "PHP",
+      "Education",
+      "Learning",
+      "Teachers",
+      "Platform"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/teacther",
     "repo": "https://github.com/Mohamed2007Sarhan/teacther",
@@ -398,7 +488,13 @@
     "short": "Python tool for generating random IP addresses with various configurations and network testing capabilities.",
     "shortAr": "أداة Python لتوليد عناوين IP عشوائية مع تكوينات متنوعة وقدرات اختبار الشبكة.",
     "cover": "/images/projects/random-ip.svg",
-    "tags": ["Python", "Network", "Testing", "IP Address", "Tool"],
+    "tags": [
+      "Python",
+      "Network",
+      "Testing",
+      "IP Address",
+      "Tool"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/random-ip",
     "repo": "https://github.com/Mohamed2007Sarhan/random-ip",
@@ -424,7 +520,13 @@
     "short": "Advanced network analysis and testing tool built with C++ for performance monitoring and security assessment.",
     "shortAr": "أداة تحليل واختبار شبكة متقدمة مبنية بـ C++ لمراقبة الأداء وتقييم الأمان.",
     "cover": "/images/projects/network-tool.svg",
-    "tags": ["C++", "Network", "Security", "Analysis", "Performance"],
+    "tags": [
+      "C++",
+      "Network",
+      "Security",
+      "Analysis",
+      "Performance"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/network-tool",
     "repo": "https://github.com/Mohamed2007Sarhan/network-tool",
@@ -450,7 +552,13 @@
     "short": "OpenAI GPT-3 integration project with custom implementations and advanced AI text processing capabilities.",
     "shortAr": "مشروع تكامل OpenAI GPT-3 مع تطبيقات مخصصة وقدرات معالجة النصوص بالذكاء الاصطناعي المتقدمة.",
     "cover": "/images/projects/gpt-3.svg",
-    "tags": ["AI", "GPT-3", "OpenAI", "Text Processing", "Integration"],
+    "tags": [
+      "AI",
+      "GPT-3",
+      "OpenAI",
+      "Text Processing",
+      "Integration"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/gpt-3",
     "repo": "https://github.com/Mohamed2007Sarhan/gpt-3",
@@ -476,7 +584,13 @@
     "short": "RESTful API for WormGPT with advanced features for text generation, processing, and AI-powered content creation.",
     "shortAr": "API RESTful لـ WormGPT مع ميزات متقدمة لتوليد النصوص والمعالجة وإنشاء المحتوى المدعوم بالذكاء الاصطناعي.",
     "cover": "/images/projects/wormgpt-api.svg",
-    "tags": ["Python", "API", "WormGPT", "RESTful", "AI"],
+    "tags": [
+      "Python",
+      "API",
+      "WormGPT",
+      "RESTful",
+      "AI"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/wormgpt-api",
     "repo": "https://github.com/Mohamed2007Sarhan/wormgpt-api",
@@ -502,7 +616,13 @@
     "short": "Bitcoin analysis and trading tools with advanced features for cryptocurrency market monitoring and analysis.",
     "shortAr": "أدوات تحليل وتداول البيتكوين مع ميزات متقدمة لمراقبة وتحليل سوق العملات المشفرة.",
     "cover": "/images/projects/btc-tools.svg",
-    "tags": ["Python", "Bitcoin", "Cryptocurrency", "Trading", "Private"],
+    "tags": [
+      "Python",
+      "Bitcoin",
+      "Cryptocurrency",
+      "Trading",
+      "Private"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/BTC-Tools",
     "repo": "https://github.com/Mohamed2007Sarhan/BTC-Tools",
@@ -520,8 +640,6 @@
       "impact": "Market Analysis"
     }
   },
-  
- 
   {
     "id": "socialfocel",
     "title": "SocialFocel",
@@ -530,7 +648,13 @@
     "short": "Social media management platform with advanced features for content scheduling, analytics, and engagement tracking.",
     "shortAr": "منصة إدارة وسائل التواصل الاجتماعي مع ميزات متقدمة لجدولة المحتوى والتحليلات وتتبع التفاعل.",
     "cover": "/images/projects/socialfocel.svg",
-    "tags": ["PHP", "Social Media", "Management", "Analytics", "Scheduling"],
+    "tags": [
+      "PHP",
+      "Social Media",
+      "Management",
+      "Analytics",
+      "Scheduling"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/SocialFocel",
     "repo": "https://github.com/Mohamed2007Sarhan/SocialFocel",
@@ -556,7 +680,13 @@
     "short": "Online learning platform with course management, student tracking, and interactive educational content.",
     "shortAr": "منصة تعلم عبر الإنترنت مع إدارة الدورات وتتبع الطلاب والمحتوى التعليمي التفاعلي.",
     "cover": "/images/projects/courses-web.svg",
-    "tags": ["PHP", "Education", "Learning", "Courses", "Platform"],
+    "tags": [
+      "PHP",
+      "Education",
+      "Learning",
+      "Courses",
+      "Platform"
+    ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/Cources-web",
     "repo": "https://github.com/Mohamed2007Sarhan/Cources-web",
