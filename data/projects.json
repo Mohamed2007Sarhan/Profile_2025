@@ -1,5 +1,58 @@
 [
   {
+  "id": "fireware-app",
+  "title": "Fireware App",
+  "titleAr": "تطبيق Fireware",
+  "slug": "fireware-app",
+  "short": "Advanced desktop app built with modern frameworks for system control, automation, and AI integration.",
+  "shortAr": "تطبيق سطح مكتب متقدم تم بناؤه بأُطر عمل حديثة للتحكم في النظام والأتمتة والتكامل مع الذكاء الاصطناعي.",
+  "cover": "/images/projects/fireware-app.svg",
+  "tags": ["Python", "AI", "Automation", "Desktop App", "Security"],
+  "year": 2025,
+  "live": "https://github.com/Mohamed2007Sarhan/Fireware-app",
+  "repo": "https://github.com/Mohamed2007Sarhan/Fireware-app",
+  "caseStudy": "/projects/fireware-app",
+  "githubStats": {
+    "stars": 7,
+    "forks": 3,
+    "watchers": 4,
+    "issues": 1,
+    "lastUpdated": "2025-01-10"
+  },
+  "stats": {
+    "perf": "System Automation",
+    "users": "Developers & Security Engineers",
+    "impact": "Streamlined workflow and intelligent system management"
+  }
+}
+{
+  "id": "smart-ai-model-builder",
+  "title": "Smart AI Model Builder",
+  "titleAr": "منشئ النماذج الذكية للذكاء الاصطناعي",
+  "slug": "smart-ai-model-builder",
+  "short": "An intelligent platform for building, training, and deploying AI models with minimal coding.",
+  "shortAr": "منصة ذكية لبناء وتدريب ونشر نماذج الذكاء الاصطناعي بسهولة وبدون كود معقد.",
+  "cover": "/images/projects/smart-ai-model-builder.svg",
+  "tags": ["Python", "AI", "Machine Learning", "Automation", "Data Science"],
+  "year": 2025,
+  "live": "https://github.com/Mohamed2007Sarhan/Smart-AI-Model-Builder",
+  "repo": "https://github.com/Mohamed2007Sarhan/Smart-AI-Model-Builder",
+  "caseStudy": "/projects/smart-ai-model-builder",
+  "githubStats": {
+    "stars": 9,
+    "forks": 4,
+    "watchers": 5,
+    "issues": 0,
+    "lastUpdated": "2025-02-05"
+  },
+  "stats": {
+    "perf": "AI Model Building",
+    "users": "Data Scientists & Developers",
+    "impact": "Accelerated AI development with low-code automation"
+  }
+}
+
+  {
     "id": "ibrand-frontend",
     "title": "iBrand Frontend",
     "titleAr": "iBrand Frontend",
