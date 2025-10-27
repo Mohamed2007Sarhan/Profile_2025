@@ -6,7 +6,7 @@
     "slug": "fireware-app",
     "short": "Advanced desktop app built with modern frameworks for system control, automation, and AI integration.",
     "shortAr": "تطبيق سطح مكتب متقدم تم بناؤه بأُطر عمل حديثة للتحكم في النظام والأتمتة والتكامل مع الذكاء الاصطناعي.",
-    "cover": "/images/projects/fireware-app.svg",
+    "cover": "/images/1234.jpg",
     "tags": [
       "Python",
       "AI",
@@ -39,7 +39,7 @@
     "slug": "smart-ai-model-builder",
     "short": "An intelligent platform for building, training, and deploying AI models with minimal coding.",
     "shortAr": "منصة ذكية لبناء وتدريب ونشر نماذج الذكاء الاصطناعي بسهولة وبدون كود معقد.",
-    "cover": "/images/projects/smart-ai-model-builder.svg",
+    "cover": "/images/123.png",
     "tags": [
       "Python",
       "AI",
