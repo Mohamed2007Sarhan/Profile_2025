@@ -6,9 +6,9 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://mohamedsarhan.dev'),
-  title: "Mohamed Sarhan - Full Stack Developer & AI Engineer | Portfolio",
+  title: "Mohamed Sarhan - Software Engineer & Full Stack Developer & AI Engineer | Portfolio",
   description:
-    "Mohamed Sarhan is a Full Stack Developer and AI Engineer specializing in React, Next.js, TypeScript, Python, and Machine Learning. Explore my portfolio of web applications, AI projects, and technical solutions.",
+    "Mohamed Sarhan is a Software Engineer and Full Stack Developer and AI Engineer specializing in React, Next.js, TypeScript, Python, and Machine Learning. Explore my portfolio of web applications, AI projects, and technical solutions.",
   generator: "Next.js",
   keywords: [
     "Mohamed Sarhan", 
