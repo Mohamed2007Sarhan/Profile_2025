@@ -11,19 +11,19 @@ export const metadata: Metadata = {
     "Mohamed Sarhan is a Software Engineer and Full Stack Developer and AI Engineer specializing in React, Next.js, TypeScript, Python, and Machine Learning. Explore my portfolio of web applications, AI projects, and technical solutions.",
   generator: "Next.js",
   keywords: [
-    "Mohamed Sarhan", 
-    "Full Stack Developer", 
-    "AI Engineer", 
-    "React Developer", 
-    "Next.js Developer", 
-    "TypeScript", 
-    "Python Developer", 
-    "Machine Learning", 
-    "Web Development", 
-    "Frontend Developer", 
-    "Backend Developer", 
-    "JavaScript", 
-    "Node.js", 
+    "Mohamed Sarhan",
+    "Full Stack Developer",
+    "AI Engineer",
+    "React Developer",
+    "Next.js Developer",
+    "TypeScript",
+    "Python Developer",
+    "Machine Learning",
+    "Web Development",
+    "Frontend Developer",
+    "Backend Developer",
+    "JavaScript",
+    "Node.js",
     "Artificial Intelligence",
     "Software Engineer",
     "Egyptian Developer",
@@ -98,6 +98,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <meta
+          httpEquiv="Content-Security-Policy"
+          content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com data:; connect-src 'self' https://www.google-analytics.com https://formspree.io; frame-src 'self' https://www.youtube.com;"
+        />
         <StructuredData />
       </head>
       <body>
