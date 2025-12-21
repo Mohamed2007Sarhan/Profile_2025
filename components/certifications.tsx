@@ -123,7 +123,7 @@ const achievements = [
   {
     title: "Years Experience",
     titleAr: "سنوات الخبرة",
-    value: "8+",
+    value: "9+",
     icon: Award,
     color: "text-green-500"
   },
@@ -154,7 +154,7 @@ export function Certifications() {
             {language === "en" ? "Certifications & Achievements" : "الشهادات والإنجازات"}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
-            {language === "en" 
+            {language === "en"
               ? "Professional certifications and achievements that demonstrate expertise across multiple domains"
               : "الشهادات المهنية والإنجازات التي تثبت الخبرة عبر مجالات متعددة"
             }
@@ -226,14 +226,14 @@ export function Certifications() {
                     <Badge variant="outline" className="text-xs">
                       {cert.year}
                     </Badge>
-                    <Badge 
+                    <Badge
                       variant={cert.status === "Certified" ? "default" : "secondary"}
                       className={`text-xs ${cert.status === "Certified" ? "bg-green-600" : "bg-blue-600"}`}
                     >
                       {language === "en" ? cert.status : cert.statusAr}
                     </Badge>
                   </div>
-                  
+
                   <p className="text-sm text-muted-foreground">
                     {language === "en" ? cert.description : cert.descriptionAr}
                   </p>

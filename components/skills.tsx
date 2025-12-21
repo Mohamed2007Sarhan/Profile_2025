@@ -20,6 +20,7 @@ const skillCategories = [
     bgColor: "bg-red-500/10",
     borderColor: "border-red-500/20",
     skills: [
+      { name: "Red Teaming", level: 98, experience: "Expert" },
       { name: "Penetration Testing", level: 95, experience: "Expert" },
       { name: "Ethical Hacking", level: 90, experience: "Expert" },
       { name: "Network Security", level: 88, experience: "Advanced" },
@@ -58,7 +59,7 @@ const skillCategories = [
     bgColor: "bg-green-500/10",
     borderColor: "border-green-500/20",
     skills: [
-      { name: "React", level: 95, experience: "Expert" },
+      { name: "React.js", level: 95, experience: "Expert" },
       { name: "Next.js", level: 90, experience: "Expert" },
       { name: "Node.js", level: 88, experience: "Advanced" },
       { name: "FastAPI", level: 85, experience: "Advanced" },
@@ -115,23 +116,6 @@ const skillCategories = [
       { name: "Bundle Optimization", level: 85, experience: "Advanced" },
       { name: "Caching Strategies", level: 78, experience: "Advanced" },
       { name: "PWA Development", level: 80, experience: "Advanced" },
-    ],
-  },
-  {
-    id: "dentistry",
-    title: "Dentistry & Medical Technology",
-    titleAr: "طب الأسنان والتكنولوجيا الطبية",
-    icon: Users,
-    color: "text-emerald-600",
-    bgColor: "bg-emerald-500/10",
-    borderColor: "border-emerald-500/20",
-    skills: [
-      { name: "Dental Anatomy", level: 85, experience: "Advanced" },
-      { name: "Oral Pathology", level: 80, experience: "Advanced" },
-      { name: "Dental Technology", level: 88, experience: "Advanced" },
-      { name: "Digital Dentistry", level: 90, experience: "Expert" },
-      { name: "3D Dental Modeling", level: 85, experience: "Advanced" },
-      { name: "Medical Software Development", level: 92, experience: "Expert" },
     ],
   },
 ]
@@ -250,8 +234,8 @@ export function Skills() {
                           transition={{ duration: 0.3, delay: skillIndex * 0.1 }}
                           viewport={{ once: true }}
                         >
-                          <Badge 
-                            variant="secondary" 
+                          <Badge
+                            variant="secondary"
                             className={`text-xs hover:scale-105 transition-transform duration-200 ${category.bgColor} ${category.borderColor} text-white`}
                           >
                             {skill.name}

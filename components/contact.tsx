@@ -101,92 +101,41 @@ export function Contact() {
     return re.test(email);
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     // Basic validation
     if (!formData.name || !formData.email || !formData.subject || !formData.message) {
       toast({
         title: language === "en" ? "Error" : "خطأ",
-        description: language === "en" 
-          ? "Please fill in all required fields" 
+        description: language === "en"
+          ? "Please fill in all required fields"
           : "الرجاء ملء جميع الحقول المطلوبة",
         variant: "destructive",
-        duration: 5000,
-      });
-      return;
-    }
-
-    // Email validation
-    if (!validateEmail(formData.email)) {
-      toast({
-        title: language === "en" ? "Error" : "خطأ",
-        description: language === "en" 
-          ? "Please enter a valid email address" 
-          : "الرجاء إدخال عنوان بريد إلكتروني صحيح",
-        variant: "destructive",
-        duration: 5000,
+        duration: 3000,
       });
       return;
     }
 
     setIsSubmitting(true);
 
-    try {
-      const response = await fetch("https://formspree.io/f/mblkdlga", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-        body: JSON.stringify({
-          name: formData.name,
-          email: formData.email,
-          subject: formData.subject,
-          message: formData.message,
-          _language: language,
-        }),
-      });
+    // Create mailto link
+    const subject = `${formData.subject} - from ${formData.name}`;
+    const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`;
+    const mailtoLink = `mailto:prof7mohamedsarhan@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
-      const data = await response.json();
+    // Open email client
+    window.location.href = mailtoLink;
 
-      if (response.ok && data.ok) {
-        toast({
-          title: language === "en" ? "Message sent!" : "تم إرسال الرسالة!",
-          description: t.contactForm.success,
-          duration: 5000,
-        });
+    toast({
+      title: language === "en" ? "Opening Email Client" : "جاري فتح البريد الإلكتروني",
+      description: language === "en"
+        ? "Redirecting to your default email app..."
+        : "جاري التحويل إلى تطبيق البريد الافتراضي...",
+      duration: 3000,
+    });
 
-        // Reset form
-        setFormData({
-          name: "",
-          email: "",
-          subject: "",
-          message: "",
-        });
-      } else {
-        throw new Error(
-          data.error?.message || 
-          (language === "en" 
-            ? "Failed to send message" 
-            : "فشل إرسال الرسالة")
-        );
-      }
-    } catch (error) {
-      console.error('Form submission error:', error);
-      toast({
-        title: language === "en" ? "Error" : "خطأ",
-        description: error instanceof Error 
-          ? error.message 
-          : language === "en" 
-            ? "An error occurred. Please try again later." 
-            : "حدث خطأ. يرجى المحاولة مرة أخرى لاحقًا.",
-        variant: "destructive",
-        duration: 5000,
-      });
-    } finally {
-      setIsSubmitting(false);
-    }
+    setIsSubmitting(false);
   }
 
   const isFormValid = formData.name && formData.email && formData.subject && formData.message

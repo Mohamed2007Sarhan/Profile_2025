@@ -12,93 +12,71 @@ const timeline = [
   {
     year: "2024",
     yearAr: "٢٠٢٤",
-    title: "Senior Software Engineer & Penetration Tester + Dentistry Student",
-    titleAr: "مهندس برمجيات أول ومختبر اختراق + طالب طب أسنان",
-    company: "CyberTech Solutions & King Salman International University",
-    companyAr: "حلول سايبر تك وجامعة الملك سلمان الدولية",
+    title: "Software Engineer (R&D & Embedded Systems)",
+    titleAr: "مهندس برمجيات (بحث وتطوير وأنظمة مدمجة)",
+    company: "Horus University",
+    companyAr: "جامعة حورس",
     description:
-      "Leading cybersecurity initiatives and developing enterprise-grade applications. Specializing in AI development, penetration testing, mobile app development, and desktop applications. Currently pursuing Dentistry studies at King Salman International University, combining technical expertise with medical knowledge.",
+      "Leading R&D engineering initiatives and developing embedded systems solutions. Specializing in building ML cores from scratch and custom exploit development.",
     descriptionAr:
-      "قيادة مبادرات الأمن السيبراني وتطوير تطبيقات على مستوى المؤسسات. التخصص في تطوير الذكاء الاصطناعي واختبار الاختراق وتطوير التطبيقات المحمولة وتطبيقات سطح المكتب. أدرس حالياً طب الأسنان في جامعة الملك سلمان الدولية، مما يجمع بين الخبرة التقنية والمعرفة الطبية.",
+      "قيادة مبادرات البحث والتطوير الهندسي وتطوير حلول الأنظمة المدمجة. التخصص في بناء أنوية التعلم الآلي من الصفر وتطوير استغلال الثغرات المخصص.",
   },
   {
     year: "2023",
     yearAr: "٢٠٢٣",
-    title: "Full Stack Developer & Mobile Developer",
-    titleAr: "مطور شامل ومطور محمول",
-    company: "TechInnovate & MobileFirst",
-    companyAr: "تيك إنوفيت وموبايل فيرست",
+    title: "Full Stack Developer (On-site & Red Team)",
+    titleAr: "مطور شامل (موقعي وفريق أحمر)",
+    company: "Athr",
+    companyAr: "أثر",
     description:
-      "Developed full-stack web applications and Android applications. Implemented AI-powered features, real-time communication systems, and cross-platform mobile solutions. Focused on performance optimization and user experience.",
-    descriptionAr: "تطوير تطبيقات ويب شاملة وتطبيقات أندرويد. تنفيذ ميزات مدعومة بالذكاء الاصطناعي وأنظمة اتصال فورية وحلول محمولة متعددة المنصات. التركيز على تحسين الأداء وتجربة المستخدم.",
+      "Developed full-stack web applications and conducted red team operations. Implemented secure coding practices and performed penetration testing on internal systems.",
+    descriptionAr: "تطوير تطبيقات ويب شاملة وإجراء عمليات الفريق الأحمر. تنفيذ ممارسات الكود الآمن وإجراء اختبارات اختراق على الأنظمة الداخلية.",
   },
   {
     year: "2022",
     yearAr: "٢٠٢٢",
-    title: "Cybersecurity Specialist & Web Developer",
-    titleAr: "متخصص أمن سيبراني ومطور ويب",
-    company: "SecureTech & WebSolutions",
-    companyAr: "سكيور تك وحلول الويب",
+    title: "Frontend Software Engineer (On-site)",
+    titleAr: "مهندس برمجيات واجهة أمامية (موقعي)",
+    company: "iBrand",
+    companyAr: "آي براند",
     description:
-      "Conducted penetration testing and security audits for various organizations. Developed secure web applications and implemented cybersecurity best practices. Gained expertise in vulnerability assessment and incident response.",
-    descriptionAr: "إجراء اختبارات الاختراق ومراجعات الأمان لمؤسسات مختلفة. تطوير تطبيقات ويب آمنة وتنفيذ أفضل ممارسات الأمن السيبراني. اكتساب خبرة في تقييم الثغرات والاستجابة للحوادث.",
+      "Engineered production-grade frontend architectures for high-traffic retail platforms. Focused on performance optimization and scalable component systems.",
+    descriptionAr: "هندسة معماريات واجهة أمامية على مستوى الإنتاج لمنصات التجزئة عالية الزيارات. التركيز على تحسين الأداء وأنظمة المكونات القابلة للتوسع.",
   },
   {
     year: "2021",
     yearAr: "٢٠٢١",
-    title: "Software Engineer & AI Developer",
-    titleAr: "مهندس برمجيات ومطور ذكاء اصطناعي",
-    company: "AI Solutions & DataTech",
-    companyAr: "حلول الذكاء الاصطناعي ودايتا تك",
+    title: "Security Researcher & Tool Developer",
+    titleAr: "باحث أمني ومطور أدوات",
+    company: "Independent",
+    companyAr: "مستقل",
     description:
-      "Developed AI-powered applications and machine learning models. Built desktop applications and web services. Specialized in Python, C#, and modern web technologies. Implemented data analysis and visualization solutions.",
-    descriptionAr: "تطوير تطبيقات مدعومة بالذكاء الاصطناعي ونماذج التعلم الآلي. بناء تطبيقات سطح المكتب وخدمات الويب. التخصص في Python و C# وتقنيات الويب الحديثة. تنفيذ حلول تحليل البيانات والتصور.",
-  },
-  {
-    year: "2020",
-    yearAr: "٢٠٢٠",
-    title: "Full-Stack Developer",
-    titleAr: "مطور شامل",
-    company: "WebTech Solutions",
-    companyAr: "حلول ويب تك",
-    description:
-      "Built full-stack applications with React, Node.js, and modern databases. Developed responsive web applications and RESTful APIs. Gained experience in cloud deployment and DevOps practices.",
-    descriptionAr: "بناء تطبيقات شاملة باستخدام React و Node.js وقواعد البيانات الحديثة. تطوير تطبيقات ويب متجاوبة وواجهات برمجة تطبيقات RESTful. اكتساب خبرة في نشر السحابة وممارسات DevOps.",
-  },
-  {
-    year: "2019",
-    yearAr: "٢٠١٩",
-    title: "Frontend Developer & UI/UX Designer",
-    titleAr: "مطور واجهات أمامية ومصمم واجهات المستخدم",
-    company: "Creative Digital Agency",
-    companyAr: "الوكالة الرقمية الإبداعية",
-    description:
-      "Started career in web development and UI/UX design. Learned modern frameworks and design principles. Created responsive websites and interactive user interfaces. Developed skills in HTML, CSS, JavaScript, and design tools.",
-    descriptionAr: "بدء المسيرة المهنية في تطوير الويب وتصميم واجهات المستخدم. تعلم الأطر الحديثة ومبادئ التصميم. إنشاء مواقع ويب متجاوبة وواجهات مستخدم تفاعلية. تطوير مهارات في HTML و CSS و JavaScript وأدوات التصميم.",
+      "Conducted independent security research and developed custom security tools. Discovered and reported vulnerabilities in various open-source projects.",
+    descriptionAr: "إجراء أبحاث أمنية مستقلة وتطوير أدوات أمان مخصصة. اكتشاف والإبلاغ عن ثغرات في مشاريع مختلفة مفتوحة المصدر.",
   },
 ]
 
 const achievements = [
   {
     icon: Award,
-    title: "Cybersecurity Expert",
-    titleAr: "خبير الأمن السيبراني",
-    description: "8+ years of penetration testing & security",
-    descriptionAr: "أكثر من 8 سنوات في اختبار الاختراق والأمان",
+    title: "Red Team Operator",
+    titleAr: "مشغل الفريق الأحمر",
+    description: "9+ years of offensive security operations",
+    descriptionAr: "أكثر من 9 سنوات من عمليات الأمن الهجومي",
   },
   {
     icon: Users,
-    title: "Multi-Platform Developer",
-    titleAr: "مطور متعدد المنصات",
-    description: "Web, Mobile, Desktop & AI applications",
-    descriptionAr: "تطبيقات ويب ومحمول وسطح مكتب وذكاء اصطناعي",
+    title: "Software Architect",
+    titleAr: "مهندس برمجيات",
+    description: "Scalable systems & Embedded Engineering",
+    descriptionAr: "أنظمة قابلة للتوسع وهندسة مدمجة",
   },
   {
     icon: Code,
-    title: "AI & Machine Learning",
-    titleAr: "الذكاء الاصطناعي والتعلم الآلي",
-    description: "Advanced AI tools and ML models",
-    descriptionAr: "أدوات ذكاء اصطناعي ونماذج تعلم آلي متقدمة",
+    title: "ML Core Developer",
+    titleAr: "مطور نواة تعلم آلي",
+    description: "Building Custom ML Libraries from Scratch",
+    descriptionAr: "بناء مكتبات تعلم آلي مخصصة من الصفر",
   },
 ]
 
@@ -110,10 +88,10 @@ export function About() {
     const link = document.createElement("a")
     if (language === "ar") {
       link.href = "/resume-mohamed-ar.pdf"
-      link.download = "Mohamed-Resume-AR.pdf"
+      link.download = "resume-mohamed-AR.pdf"
     } else {
       link.href = "/resume-mohamed-en.pdf"
-      link.download = "Mohamed-Resume-EN.pdf"
+      link.download = "resume-mohamed-EN.pdf"
     }
     link.click()
   }
@@ -150,8 +128,8 @@ export function About() {
                 <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
                   <div className="relative">
                     <div className="w-32 h-32 rounded-full overflow-hidden bg-gradient-to-br from-primary/20 to-accent/20 p-1">
-                      <img 
-                        src="/images/profile-mohamed.jpg" 
+                      <img
+                        src="/images/profile-mohamed.jpg"
                         alt="Dr. Mohamed Sarhan Hamed"
                         className="w-full h-full rounded-full object-cover"
                         onError={(e) => {
@@ -161,7 +139,7 @@ export function About() {
                           if (fallback) fallback.style.display = 'flex';
                         }}
                       />
-                      <div className="w-full h-full rounded-full bg-muted flex items-center justify-center" style={{display: 'none'}}>
+                      <div className="w-full h-full rounded-full bg-muted flex items-center justify-center" style={{ display: 'none' }}>
                         <span className="text-4xl font-serif font-bold text-primary">M</span>
                       </div>
                     </div>
@@ -171,7 +149,7 @@ export function About() {
                   </div>
 
                   <div className={`flex-1 ${language === "ar" ? "text-right" : "text-left"}`}>
-                    <h3 className="text-2xl font-serif font-bold mb-2">Dr. Mohamed Sarhan Hamed</h3>
+                    <h3 className="text-2xl font-serif font-bold mb-2">Mohamed Sarhan Hamed</h3>
                     <p className="text-primary font-medium mb-3">{t.heroTitle}</p>
 
                     <div className="flex flex-wrap gap-4 text-sm text-muted-foreground mb-4">
@@ -181,16 +159,16 @@ export function About() {
                       </div>
                       <div className="flex items-center gap-2">
                         <Calendar className="w-4 h-4" />
-                        <span>{language === "en" ? "8+ Years Experience" : "أكثر من 8 سنوات خبرة"}</span>
+                        <span>{language === "en" ? "9+ Years Experience" : "أكثر من 9 سنوات خبرة"}</span>
                       </div>
                     </div>
 
                     <Button onClick={downloadResume} className="flex items-center gap-2">
                       <Download className="w-4 h-4" />
-                        {language === "en" ? "Download Resume" : "تحميل السيرة الذاتية"}
+                      {language === "en" ? "Download Resume" : "تحميل السيرة الذاتية"}
                     </Button>
 
-                    
+
                   </div>
                 </div>
               </CardContent>
@@ -205,13 +183,13 @@ export function About() {
                 <div className="space-y-4 text-muted-foreground">
                   <p>
                     {language === "en"
-                      ? "As a passionate Software Engineer and Penetration Tester, I specialize in creating secure, high-performance applications across multiple platforms. My expertise spans from AI development and machine learning to penetration testing, mobile app development, and desktop applications. I'm dedicated to building solutions that not only meet technical requirements but also provide robust security and exceptional user experiences."
-                      : "كمهندس برمجيات ومختبر اختراق شغوف، أتخصص في إنشاء تطبيقات آمنة وعالية الأداء عبر منصات متعددة. تمتد خبرتي من تطوير الذكاء الاصطناعي والتعلم الآلي إلى اختبار الاختراق وتطوير التطبيقات المحمولة وتطبيقات سطح المكتب. أنا ملتزم ببناء حلول لا تلبي المتطلبات التقنية فحسب بل تقدم أيضاً أماناً قوياً وتجارب مستخدم استثنائية."}
+                      ? "I don't just run scripts; I engineer them. Specializing in Embedded Systems (Raspberry Pi), Custom Exploit Development, and building ML cores from scratch. Currently balancing R&D engineering at Horus University with offensive security operations."
+                      : "أنا لا أقوم فقط بتشغيل السكربتات؛ بل أقوم بهندستها. متخصص في الأنظمة المدمجة (Raspberry Pi)، وتطوير استغلال الثغرات المخصص، وبناء أنوية التعلم الآلي من الصفر. أوازن حالياً بين هندسة البحث والتطوير في جامعة حورس وعمليات الأمن الهجومي."}
                   </p>
                   <p>
                     {language === "en"
-                      ? "With 8+ years of experience in software engineering, cybersecurity, and AI development, I've successfully delivered projects ranging from enterprise-grade security solutions to innovative mobile applications. My diverse skill set includes Python, JavaScript, C#, Kotlin, and modern web technologies, allowing me to tackle complex challenges across different domains and create comprehensive solutions that drive business success."
-                      : "مع أكثر من 8 سنوات من الخبرة في هندسة البرمجيات والأمن السيبراني وتطوير الذكاء الاصطناعي، نجحت في تسليم مشاريع تتراوح من حلول الأمان على مستوى المؤسسات إلى التطبيقات المحمولة المبتكرة. تشمل مجموعة مهاراتي المتنوعة Python و JavaScript و C# و Kotlin وتقنيات الويب الحديثة، مما يسمح لي بمعالجة التحديات المعقدة عبر مجالات مختلفة وإنشاء حلول شاملة تحقق نجاح الأعمال."}
+                      ? "With 9+ years of experience in software engineering and red teaming, I architect secure, resilient infrastructures. My expertise spans from low-level embedded programming to high-level cloud architecture, ensuring comprehensive security coverage."
+                      : "مع أكثر من 9 سنوات من الخبرة في هندسة البرمجيات والفريق الأحمر، أقوم بتصميم بنى تحتية آمنة ومرنة. تمتد خبرتي من البرمجة منخفضة المستوى للأنظمة المدمجة إلى هندسة السحابة عالية المستوى، مما يضمن تغطية أمنية شاملة."}
                   </p>
                 </div>
               </CardContent>

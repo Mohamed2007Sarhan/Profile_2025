@@ -10,8 +10,6 @@ import { useTranslation } from "@/lib/i18n"
 import { Typewriter, MultiLineTypewriter } from "@/components/typewriter"
 import { InteractiveCodingDemo } from "@/components/interactive-coding-demo"
 import { ComputerAnimation } from "@/components/computer-animation"
-import { DentalAnimation } from "@/components/dental-animation"
-import { VideoBackground } from "@/components/video-background"
 import { VSCodeAnimation } from "@/components/hero-animations/vscode-animation"
 import { RealisticGearAnimation } from "@/components/hero-animations/realistic-gear-animation"
 import { PenetrationTestAnimation } from "@/components/hero-animations/penetration-test-animation"
@@ -66,11 +64,23 @@ export function Hero() {
   }
 
   const downloadResume = () => {
-    // In a real implementation, this would download the actual resume
     const link = document.createElement("a")
-    link.href = "/resume-mohamed.pdf"
-    link.download = "Mohamed-Resume.pdf"
+    if (language === "ar") {
+      link.href = "/resume-mohamed-ar.pdf"
+      link.download = "resume-mohamed-AR.pdf"
+    } else {
+      link.href = "/resume-mohamed-en.pdf"
+      link.download = "resume-mohamed-EN.pdf"
+    }
     link.click()
+
+    // Track download event
+    if (typeof window !== 'undefined' && (window as any).gtag) {
+      (window as any).gtag('event', 'download_resume', {
+        'event_category': 'engagement',
+        'event_label': language === "ar" ? "Arabic Resume" : "English Resume"
+      })
+    }
   }
 
   const handleVideoApproval = (approved: boolean) => {
@@ -116,21 +126,31 @@ export function Hero() {
                 transition={{ delay: 0.3, duration: 0.8 }}
                 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-balance"
               >
-                <motion.span 
-                  className="text-foreground"
-                  animate={{ 
+                <motion.span
+                  className="text-foreground cursor-pointer inline-block"
+                  animate={{
                     textShadow: [
                       "0 0 0px rgba(59, 130, 246, 0)",
                       "0 0 20px rgba(59, 130, 246, 0.3)",
                       "0 0 0px rgba(59, 130, 246, 0)"
                     ]
                   }}
+                  whileHover={{
+                    x: [0, -2, 2, -2, 2, 0],
+                    y: [0, 2, -2, 2, -2, 0],
+                    textShadow: [
+                      "2px 0 red, -2px 0 blue",
+                      "-2px 0 red, 2px 0 blue",
+                      "2px 0 red, -2px 0 blue"
+                    ],
+                    transition: { duration: 0.2, repeat: Infinity }
+                  }}
                   transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
                 >
                   Mohamed Sarhan Hamed
                 </motion.span>
                 <br />
-                <motion.span 
+                <motion.span
                   className="text-primary"
                   animate={{
                     backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
@@ -149,31 +169,25 @@ export function Hero() {
                   }}
                 >
                   <Typewriter
-                    texts={language === "en" 
+                    texts={language === "en"
                       ? [
-                          "Software Engineer",
-                          "Penetration Tester", 
-                          "Web Developer",
-                          "Desktop App Developer",
-                          "Android Developer",
-                          "AI Developer",
-                          "Cybersecurity Specialist",
-                          "Code Writer",
-                          "Bug Hunter",
-                          "System Architect"
-                        ]
+                        "Software Architect",
+                        "Red Team Operator",
+                        "Security Researcher",
+                        "Embedded Systems Engineer",
+                        "ML Core Developer",
+                        "Exploit Developer",
+                        "Infrastructure Engineer"
+                      ]
                       : [
-                          "مهندس برمجيات",
-                          "مختبر اختراق",
-                          "مطور ويب",
-                          "مطور تطبيقات سطح المكتب",
-                          "مطور أندرويد",
-                          "مطور ذكاء اصطناعي",
-                          "متخصص أمن سيبراني",
-                          "كاتب كود",
-                          "صياد الثغرات",
-                          "مهندس أنظمة"
-                        ]
+                        "مهندس برمجيات",
+                        "مشغل الفريق الأحمر",
+                        "باحث أمني",
+                        "مهندس أنظمة مدمجة",
+                        "مطور نواة تعلم آلي",
+                        "مطور استغلال ثغرات",
+                        "مهندس بنية تحتية"
+                      ]
                     }
                     speed={80}
                     deleteSpeed={40}
@@ -190,21 +204,19 @@ export function Hero() {
                 className="text-lg sm:text-xl text-muted-foreground text-pretty max-w-2xl"
               >
                 <Typewriter
-                  texts={language === "en" 
+                  texts={language === "en"
                     ? [
-                        "Building secure, high-performance applications",
-                        "Creating innovative AI solutions",
-                        "Developing robust cybersecurity systems",
-                        "Crafting beautiful user experiences",
-                        "Building scalable mobile applications"
-                      ]
+                      "9+ Years of Engineering Custom Security Tools & Hardening Infrastructure.",
+                      "Specializing in Embedded Systems (Raspberry Pi)",
+                      "Building ML cores from scratch",
+                      "Balancing R&D engineering with offensive security operations"
+                    ]
                     : [
-                        "بناء تطبيقات آمنة وعالية الأداء",
-                        "إنشاء حلول ذكاء اصطناعي مبتكرة",
-                        "تطوير أنظمة أمن سيبراني قوية",
-                        "صياغة تجارب مستخدم جميلة",
-                        "بناء تطبيقات محمولة قابلة للتوسع"
-                      ]
+                      "أكثر من 9 سنوات في هندسة أدوات الأمان المخصصة وتقوية البنية التحتية.",
+                      "تخصص في الأنظمة المدمجة (Raspberry Pi)",
+                      "بناء أنوية التعلم الآلي من الصفر",
+                      "الموازنة بين البحث والتطوير والعمليات الأمنية الهجومية"
+                    ]
                   }
                   speed={80}
                   deleteSpeed={40}
@@ -266,7 +278,7 @@ export function Hero() {
               className="flex flex-wrap gap-8 pt-8 border-t border-border/50"
             >
               <div className="text-center sm:text-left">
-                <div className="text-2xl font-bold text-primary">8+</div>
+                <div className="text-2xl font-bold text-primary">9+</div>
                 <div className="text-sm text-muted-foreground">
                   {language === "en" ? "Years Experience" : "سنوات خبرة"}
                 </div>
@@ -300,7 +312,7 @@ export function Hero() {
             className="relative h-[500px] lg:h-[600px]"
           >
             {isClient && (
-              <motion.div 
+              <motion.div
                 key={currentAnimation}
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -333,9 +345,8 @@ export function Hero() {
               {animations.map((_, index) => (
                 <motion.div
                   key={index}
-                  className={`w-2 h-2 rounded-full ${
-                    index === currentAnimation ? 'bg-primary' : 'bg-white/30'
-                  }`}
+                  className={`w-2 h-2 rounded-full ${index === currentAnimation ? 'bg-primary' : 'bg-white/30'
+                    }`}
                   animate={{
                     scale: index === currentAnimation ? [1, 1.2, 1] : 1,
                   }}
@@ -350,7 +361,7 @@ export function Hero() {
 
             {/* Floating Elements */}
             <motion.div
-              animate={{ 
+              animate={{
                 y: [0, -10, 0],
                 rotate: [0, 180, 360],
                 scale: [1, 1.1, 1]
@@ -359,7 +370,7 @@ export function Hero() {
               className="absolute -top-4 -right-4 w-20 h-20 bg-accent/20 rounded-full blur-xl"
             />
             <motion.div
-              animate={{ 
+              animate={{
                 y: [0, 10, 0],
                 rotate: [0, -180, -360],
                 scale: [1, 0.9, 1]
@@ -368,7 +379,7 @@ export function Hero() {
               className="absolute -bottom-4 -left-4 w-16 h-16 bg-primary/20 rounded-full blur-xl"
             />
             <motion.div
-              animate={{ 
+              animate={{
                 x: [0, 20, 0],
                 y: [0, -15, 0],
                 rotate: [0, 90, 180, 270, 360]
@@ -377,7 +388,7 @@ export function Hero() {
               className="absolute top-1/2 -right-8 w-12 h-12 bg-cyan-500/20 rounded-full blur-lg"
             />
             <motion.div
-              animate={{ 
+              animate={{
                 x: [0, -15, 0],
                 y: [0, 20, 0],
                 rotate: [0, -90, -180, -270, -360]

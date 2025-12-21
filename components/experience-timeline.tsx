@@ -5,7 +5,7 @@ import React, { useState } from "react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { 
+import {
   Calendar,
   MapPin,
   Building,
@@ -23,67 +23,67 @@ const experiences = [
   {
     year: "2024",
     yearAr: "٢٠٢٤",
-    title: "Full Stack Developer & Cybersecurity Specialist",
-    titleAr: "مطور شامل ومتخصص أمن سيبراني",
-    company: "Haworth University & Cyber Investigations",
-    companyAr: "جامعة هوورث والتحقيقات السيبرانية",
+    title: "Software Engineer (R&D & Embedded Systems)",
+    titleAr: "مهندس برمجيات (بحث وتطوير وأنظمة مدمجة)",
+    company: "Horus University",
+    companyAr: "جامعة حورس",
     location: "New Damietta, Egypt",
     locationAr: "دمياط الجديدة، مصر",
-    description: "Working as a Full Stack Developer and Cybersecurity Specialist with expertise in AI development, penetration testing, and modern web technologies. Building AI tools, real-time applications, and security solutions.",
-    descriptionAr: "العمل كمطور شامل ومتخصص أمن سيبراني مع خبرة في تطوير الذكاء الاصطناعي واختبار الاختراق وتقنيات الويب الحديثة. بناء أدوات الذكاء الاصطناعي والتطبيقات الفورية وحلول الأمان.",
-    technologies: ["Python", "React", "TypeScript", "AI/ML", "Cybersecurity", "Penetration Testing"],
-    achievements: ["22+ GitHub Repositories", "AI Tool Development", "Security Solutions"],
+    description: "Leading R&D engineering initiatives, focusing on embedded systems and ML core development. Engineering custom security solutions and hardware interfacing.",
+    descriptionAr: "قيادة مبادرات البحث والتطوير الهندسي، مع التركيز على الأنظمة المدمجة وتطوير أنوية التعلم الآلي. هندسة حلول الأمان المخصصة وواجهات الأجهزة.",
+    technologies: ["Python", "C++", "Embedded C", "TensorFlow", "Raspberry Pi", "ML Core"],
+    achievements: ["R&D Leadership", "Custom ML Core", "Hardware Security"],
     icon: Shield,
     color: "text-red-500",
     bgColor: "bg-red-500/10"
   },
   {
-    year: "2022",
-    yearAr: "٢٠٢٢",
-    title: "3D Graphics Developer",
-    titleAr: "مطور رسوميات ثلاثية الأبعاد",
-    company: "Creative Studio",
-    companyAr: "استوديو إبداعي",
-    location: "Remote",
-    locationAr: "عن بُعد",
-    description: "Developed 3D models, animations, and interactive experiences using Three.js, WebGL, and modern web technologies. Created immersive gaming experiences.",
-    descriptionAr: "تطوير نماذج ثلاثية الأبعاد ورسوم متحركة وتجارب تفاعلية باستخدام Three.js و WebGL وتقنيات الويب الحديثة. إنشاء تجارب ألعاب غامرة.",
-    technologies: ["Three.js", "WebGL", "JavaScript", "3D Modeling", "Animation"],
-    achievements: ["3D Model Creation", "Interactive Experiences", "Gaming Development"],
+    year: "2023",
+    yearAr: "٢٠٢٣",
+    title: "Full Stack Developer (On-site & Red Team)",
+    titleAr: "مطور شامل (موقعي وفريق أحمر)",
+    company: "Athr",
+    companyAr: "أثر",
+    location: "Saudi Arabia (Remote/On-site)",
+    locationAr: "المملكة العربية السعودية (عن بُعد/موقعي)",
+    description: "Led full-stack development while conducting red team operations. Identified critical vulnerabilities and hardened infrastructure against advanced persistent threats.",
+    descriptionAr: "قيادة التطوير الشامل أثناء إجراء عمليات الفريق الأحمر. تحديد الثغرات الحرجة وتقوية البنية التحتية ضد التهديدات المستمرة المتقدمة.",
+    technologies: ["React", "Node.js", "Red Teaming", "Burp Suite", "Docker", "AWS"],
+    achievements: ["Red Team Ops", "Secure Architecture", "Infrastructure Hardening"],
     icon: Globe,
     color: "text-blue-500",
     bgColor: "bg-blue-500/10"
   },
   {
-    year: "2020",
-    yearAr: "٢٠٢٠",
-    title: "Full-Stack Developer",
-    titleAr: "مطور شامل",
-    company: "Tech Solutions",
-    companyAr: "حلول تقنية",
-    location: "Remote",
-    locationAr: "عن بُعد",
-    description: "Built full-stack applications with React, Node.js, and modern databases. Integrated 3D elements into web applications and created interactive dashboards.",
-    descriptionAr: "بناء تطبيقات شاملة باستخدام React و Node.js وقواعد البيانات الحديثة. دمج عناصر ثلاثية الأبعاد في تطبيقات الويب وإنشاء لوحات تحكم تفاعلية.",
-    technologies: ["React", "Node.js", "MongoDB", "Express", "Full-Stack"],
-    achievements: ["Full-Stack Applications", "Database Integration", "Interactive Dashboards"],
+    year: "2022",
+    yearAr: "٢٠٢٢",
+    title: "Frontend Software Engineer (On-site)",
+    titleAr: "مهندس برمجيات واجهة أمامية (موقعي)",
+    company: "iBrand",
+    companyAr: "آي براند",
+    location: "Riyadh, Saudi Arabia",
+    locationAr: "الرياض، المملكة العربية السعودية",
+    description: "Engineered high-performance frontend architectures for large-scale e-commerce platforms. Implemented advanced state management and optimization techniques.",
+    descriptionAr: "هندسة معماريات واجهة أمامية عالية الأداء لمنصات التجارة الإلكترونية واسعة النطاق. تنفيذ إدارة حالة متقدمة وتقنيات التحسين.",
+    technologies: ["React", "TypeScript", "Next.js", "Redux", "Performance Optimization"],
+    achievements: ["High-Traffic Architecture", "Component Systems", "Performance Tuning"],
     icon: Code,
     color: "text-green-500",
     bgColor: "bg-green-500/10"
   },
   {
-    year: "2019",
-    yearAr: "٢٠١٩",
-    title: "Frontend Developer",
-    titleAr: "مطور واجهات أمامية",
-    company: "Digital Agency",
-    companyAr: "وكالة رقمية",
-    location: "Remote",
-    locationAr: "عن بُعد",
-    description: "Started career in web development, learned modern frameworks, and began exploring 3D graphics and animation technologies.",
-    descriptionAr: "بدء المسيرة المهنية في تطوير الويب، وتعلم الأطر الحديثة، وبدء استكشاف تقنيات الرسوميات والرسوم المتحركة ثلاثية الأبعاد.",
-    technologies: ["HTML", "CSS", "JavaScript", "React", "Web Development"],
-    achievements: ["Career Start", "Framework Learning", "3D Exploration"],
+    year: "2021",
+    yearAr: "٢٠٢١",
+    title: "Security Researcher & Tool Developer",
+    titleAr: "باحث أمني ومطور أدوات",
+    company: "Independent",
+    companyAr: "مستقل",
+    location: "Global",
+    locationAr: "عالمي",
+    description: "Developed custom security tools and exploits. Conducted vulnerability research on open-source software and reported findings to maintainers.",
+    descriptionAr: "تطوير أدوات أمان واستغلالات مخصصة. إجراء أبحاث الثغرات على البرمجيات مفتوحة المصدر وإبلاغ المطورين بالنتائج.",
+    technologies: ["Python", "Exploit Dev", "Bash", "Linux", "Reverse Engineering"],
+    achievements: ["CVE Discoveries", "Custom Tools", "Security Research"],
     icon: Award,
     color: "text-purple-500",
     bgColor: "bg-purple-500/10"
@@ -122,7 +122,7 @@ export function ExperienceTimeline() {
     <div className="w-full h-full relative overflow-hidden bg-gradient-to-br from-blue-900/20 via-blue-800/10 to-cyan-500/20 rounded-lg">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-grid-pattern opacity-20" />
-      
+
       {/* Floating Elements */}
       {[...Array(5)].map((_, i) => (
         <motion.div
@@ -154,10 +154,10 @@ export function ExperienceTimeline() {
               {language === "en" ? "Professional Journey" : "الرحلة المهنية"}
             </h3>
             <p className="text-sm text-muted-foreground">
-              {language === "en" ? "8+ years of growth and innovation" : "أكثر من 8 سنوات من النمو والابتكار"}
+              {language === "en" ? "9+ years of growth and innovation" : "أكثر من 9 سنوات من النمو والابتكار"}
             </p>
           </div>
-          
+
           {/* Navigation Controls */}
           <div className="flex items-center gap-2">
             <Button
@@ -204,13 +204,13 @@ export function ExperienceTimeline() {
           <Card className="h-full bg-card/50 backdrop-blur-sm border-border/50">
             <CardContent className="p-6 h-full flex flex-col">
               {/* Experience Header */}
-              <motion.div 
+              <motion.div
                 className="flex items-start gap-4 mb-6"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2, duration: 0.6 }}
               >
-                <motion.div 
+                <motion.div
                   className={`p-3 rounded-lg ${currentExp.bgColor}`}
                   animate={{
                     scale: [1, 1.1, 1],
@@ -250,7 +250,7 @@ export function ExperienceTimeline() {
               </p>
 
               {/* Technologies */}
-              <motion.div 
+              <motion.div
                 className="mb-6"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -265,15 +265,15 @@ export function ExperienceTimeline() {
                       key={tech}
                       initial={{ opacity: 0, scale: 0.8 }}
                       animate={{ opacity: 1, scale: 1 }}
-                      transition={{ 
-                        delay: 0.5 + index * 0.1, 
+                      transition={{
+                        delay: 0.5 + index * 0.1,
                         duration: 0.4,
                         type: "spring",
                         stiffness: 200
                       }}
                     >
-                      <Badge 
-                        variant="outline" 
+                      <Badge
+                        variant="outline"
                         className="text-xs hover:scale-110 transition-transform cursor-pointer"
                       >
                         {tech}
@@ -284,7 +284,7 @@ export function ExperienceTimeline() {
               </motion.div>
 
               {/* Achievements */}
-              <motion.div 
+              <motion.div
                 className="flex-1"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -298,13 +298,13 @@ export function ExperienceTimeline() {
                     <motion.div
                       key={achievement}
                       initial={{ opacity: 0, x: 20, scale: 0.9 }}
-                      animate={{ 
-                        opacity: 1, 
-                        x: 0, 
+                      animate={{
+                        opacity: 1,
+                        x: 0,
                         scale: 1,
                         rotate: [0, 1, 0]
                       }}
-                      transition={{ 
+                      transition={{
                         delay: 0.7 + index * 0.15,
                         duration: 0.5,
                         rotate: {
@@ -315,7 +315,7 @@ export function ExperienceTimeline() {
                       }}
                       className="flex items-center gap-2 text-sm hover:bg-muted/50 p-2 rounded transition-colors cursor-pointer"
                     >
-                      <motion.div 
+                      <motion.div
                         className="w-1.5 h-1.5 bg-primary rounded-full"
                         animate={{
                           scale: [1, 1.3, 1],
@@ -342,9 +342,8 @@ export function ExperienceTimeline() {
           {experiences.map((_, index) => (
             <motion.button
               key={index}
-              className={`w-2 h-2 rounded-full transition-colors ${
-                currentIndex === index ? 'bg-primary' : 'bg-muted-foreground/30'
-              }`}
+              className={`w-2 h-2 rounded-full transition-colors ${currentIndex === index ? 'bg-primary' : 'bg-muted-foreground/30'
+                }`}
               animate={{
                 scale: currentIndex === index ? 1.2 : 1,
               }}

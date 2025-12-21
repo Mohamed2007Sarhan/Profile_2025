@@ -3,12 +3,12 @@
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { 
-  Trophy, 
-  Star, 
-  Award, 
-  Target, 
-  Zap, 
+import {
+  Trophy,
+  Star,
+  Award,
+  Target,
+  Zap,
   Heart,
   Code2,
   Shield,
@@ -44,7 +44,7 @@ const achievements = [
     id: "years-experience",
     title: "Years Experience",
     titleAr: "سنوات الخبرة",
-    value: "8+",
+    value: "9+",
     icon: Award,
     color: "text-green-500",
     bgColor: "bg-green-500/10",
@@ -99,7 +99,7 @@ const achievements = [
     id: "medical-apps",
     title: "Medical Applications",
     titleAr: "التطبيقات الطبية",
-    value: "8+",
+    value: "9+",
     icon: Stethoscope,
     color: "text-emerald-500",
     bgColor: "bg-emerald-500/10",
@@ -171,7 +171,7 @@ export function Achievements() {
             {language === "en" ? "Achievements & Milestones" : "الإنجازات والمعالم"}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
-            {language === "en" 
+            {language === "en"
               ? "Key achievements and milestones in my professional journey"
               : "الإنجازات والمعالم الرئيسية في مسيرتي المهنية"
             }
@@ -221,11 +221,11 @@ export function Achievements() {
           <h3 className="text-2xl font-bold text-center mb-12">
             {language === "en" ? "Career Timeline" : "الجدول الزمني للمسيرة المهنية"}
           </h3>
-          
+
           <div className="relative">
             {/* Timeline Line */}
             <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary to-accent" />
-            
+
             <div className="space-y-8">
               {milestones.map((milestone, index) => (
                 <motion.div
@@ -240,7 +240,7 @@ export function Achievements() {
                   <div className="relative z-10 w-16 h-16 bg-primary rounded-full flex items-center justify-center text-primary-foreground font-bold text-sm">
                     {milestone.year}
                   </div>
-                  
+
                   {/* Content */}
                   <Card className="flex-1 p-6 bg-card/50 backdrop-blur-sm border-border/50 hover:bg-card/80 transition-all duration-300 hover:scale-105">
                     <CardContent className="p-0">

@@ -90,7 +90,7 @@ export function Footer() {
                 <h3 className="text-2xl font-serif font-bold text-primary">{language === "en" ? "Mohamed Sarhan" : "محمد سرحان"}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
                   {language === "en"
-                    ? "Full Stack Developer & Cybersecurity Specialist with 8+ years of experience. Expert in AI development, penetration testing, and modern web technologies. Building secure, high-performance applications."
+                    ? "Full Stack Developer & Cybersecurity Specialist with 9+ years of experience. Expert in AI development, penetration testing, and modern web technologies. Building secure, high-performance applications."
                     : "مطور شامل ومتخصص أمن سيبراني مع أكثر من 8 سنوات خبرة. خبير في تطوير الذكاء الاصطناعي واختبار الاختراق وتقنيات الويب الحديثة. بناء تطبيقات آمنة وعالية الأداء."}
                 </p>
 
@@ -191,7 +191,7 @@ export function Footer() {
         <Separator />
 
         {/* Bottom Footer */}
-         <div className="py-6">
+        <div className="py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <motion.div
               initial={{ opacity: 0 }}
@@ -232,7 +232,7 @@ export function Footer() {
             </motion.div>
           </div>
         </div>
-       
+
       </div>
     </footer>
   )

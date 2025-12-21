@@ -74,11 +74,8 @@ export function Header() {
   }
 
   const handleLogoClick = () => {
-    setClickCount(prev => prev + 1)
-    if (clickCount >= 2) {
-      window.location.href = '/management'
-    }
-    setTimeout(() => setClickCount(0), 1000)
+    // Standard home navigation
+    scrollToSection("#home")
   }
 
   if (!mounted) {
@@ -89,9 +86,8 @@ export function Header() {
     <motion.header
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/80 backdrop-blur-md border-b border-border" : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-background/80 backdrop-blur-md border-b border-border" : "bg-transparent"
+        }`}
     >
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
@@ -121,20 +117,19 @@ export function Header() {
                     e.preventDefault()
                     scrollToSection(item.href)
                   }}
-                  className={`px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 ${
-                    activeSection === item.href.slice(1)
+                  className={`px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 ${activeSection === item.href.slice(1)
                       ? "text-primary bg-primary/10 shadow-lg shadow-primary/20"
                       : "text-muted-foreground hover:text-foreground hover:bg-accent/50"
-                  }`}
-                  whileHover={{ 
+                    }`}
+                  whileHover={{
                     scale: 1.05,
                     y: -2,
                     boxShadow: "0 4px 12px rgba(0,0,0,0.15)"
                   }}
                   whileTap={{ scale: 0.95 }}
                   animate={{
-                    textShadow: activeSection === item.href.slice(1) 
-                      ? "0 0 8px rgba(59, 130, 246, 0.5)" 
+                    textShadow: activeSection === item.href.slice(1)
+                      ? "0 0 8px rgba(59, 130, 246, 0.5)"
                       : "0 0 0px rgba(0,0,0,0)"
                   }}
                 >
@@ -147,16 +142,7 @@ export function Header() {
           {/* Theme and Language Toggles */}
           <div className="flex items-center space-x-2">
             {/* Hidden admin link - accessible via triple click on logo */}
-            <Link href="/management" className="hidden">
-              <motion.div
-                whileHover={{ scale: 1.05, y: -1 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <Button variant="ghost" size="sm" className="opacity-0 pointer-events-none">
-                  <Settings className="h-4 w-4" />
-                </Button>
-              </motion.div>
-            </Link>
+
 
             <motion.div
               whileHover={{ scale: 1.05, y: -1 }}
@@ -204,11 +190,10 @@ export function Header() {
                     e.preventDefault()
                     scrollToSection(item.href)
                   }}
-                  className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
-                    activeSection === item.href.slice(1)
+                  className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${activeSection === item.href.slice(1)
                       ? "text-primary bg-primary/10"
                       : "text-muted-foreground hover:text-foreground hover:bg-accent/50"
-                  }`}
+                    }`}
                   whileHover={{ x: 5 }}
                   whileTap={{ scale: 0.95 }}
                 >
