@@ -14,7 +14,7 @@ export const translations = {
     // Hero Section
     heroTitle: "Software Engineer & Penetration Tester",
     heroSubtitle: "Building secure, high-performance applications with AI, cybersecurity, and modern technologies",
-    heroDescription: "8+ years of experience in software engineering, penetration testing, web development, desktop applications, and Android development. Currently studying Dentistry at King Salman International University",
+    heroDescription: "9+ years of experience in software engineering, penetration testing, web development, desktop applications, and Android development. Currently studying Dentistry at King Salman International University",
     viewWork: "View My Work",
     downloadResume: "Download Resume",
 

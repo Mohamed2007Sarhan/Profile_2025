@@ -1,89 +1,87 @@
 [
   {
-    "id": "fireware-app",
-    "title": "Fireware App",
-    "titleAr": "تطبيق Fireware",
-    "slug": "fireware-app",
-    "short": "Advanced desktop app built with modern frameworks for system control, automation, and AI integration.",
-    "shortAr": "تطبيق سطح مكتب متقدم تم بناؤه بأُطر عمل حديثة للتحكم في النظام والأتمتة والتكامل مع الذكاء الاصطناعي.",
+    "id": "rbf-custom-core",
+    "title": "RBF Custom Core",
+    "titleAr": "RBF Custom Core",
+    "slug": "rbf-custom-core",
+    "short": "Engineered a custom ML library from scratch in Python for radial basis function networks.",
+    "shortAr": "هندسة مكتبة تعلم آلي مخصصة من الصفر في بايثون لشبكات دالة الأساس الشعاعي.",
     "cover": "/images/1234.jpg",
     "tags": [
       "Python",
-      "AI",
-      "Automation",
-      "Desktop App",
-      "Security"
+      "ML Core",
+      "Math",
+      "Library",
+      "R&D"
     ],
-    "year": 2025,
-    "live": "https://github.com/Mohamed2007Sarhan/Fireware-app",
-    "repo": "https://github.com/Mohamed2007Sarhan/Fireware-app",
-    "caseStudy": "/projects/fireware-app",
+    "year": 2024,
+    "live": "https://github.com/Mohamed2007Sarhan/RBF",
+    "repo": "https://github.com/Mohamed2007Sarhan/RBF",
+    "caseStudy": "/projects/rbf-custom-core",
     "githubStats": {
-      "stars": 7,
-      "forks": 3,
-      "watchers": 4,
-      "issues": 1,
-      "lastUpdated": "2025-01-10"
+      "stars": 12,
+      "forks": 5,
+      "watchers": 8,
+      "issues": 0,
+      "lastUpdated": "2024-11-20"
     },
     "stats": {
-      "perf": "System Automation",
-      "users": "Developers & Security Engineers",
-      "impact": "Streamlined workflow and intelligent system management"
+      "perf": "Custom ML Core",
+      "users": "Data Scientists",
+      "impact": "Core ML Implementation"
     }
   },
   {
-
-    "id": "smart-ai-model-builder",
-    "title": "Smart AI Model Builder",
-    "titleAr": "منشئ النماذج الذكية للذكاء الاصطناعي",
-    "slug": "smart-ai-model-builder",
-    "short": "An intelligent platform for building, training, and deploying AI models with minimal coding.",
-    "shortAr": "منصة ذكية لبناء وتدريب ونشر نماذج الذكاء الاصطناعي بسهولة وبدون كود معقد.",
+    "id": "codeflow-platform",
+    "title": "Codeflow Platform",
+    "titleAr": "منصة Codeflow",
+    "slug": "codeflow-platform",
+    "short": "Secure EdTech platform with real-time data processing and interactive learning modules.",
+    "shortAr": "منصة تكنولوجيا تعليم آمنة مع معالجة بيانات فورية ووحدات تعلم تفاعلية.",
     "cover": "/images/123.png",
     "tags": [
-      "Python",
-      "AI",
-      "Machine Learning",
-      "Automation",
-      "Data Science"
+      "React",
+      "Real-time",
+      "Security",
+      "EdTech",
+      "Platform"
     ],
-    "year": 2025,
-    "live": "https://github.com/Mohamed2007Sarhan/Smart-AI-Model-Builder",
-    "repo": "https://github.com/Mohamed2007Sarhan/Smart-AI-Model-Builder",
-    "caseStudy": "/projects/smart-ai-model-builder",
+    "year": 2024,
+    "live": "https://github.com/Mohamed2007Sarhan/codeflow-website",
+    "repo": "https://github.com/Mohamed2007Sarhan/codeflow-website",
+    "caseStudy": "/projects/codeflow-platform",
     "githubStats": {
-      "stars": 9,
-      "forks": 4,
-      "watchers": 5,
-      "issues": 0,
-      "lastUpdated": "2025-02-05"
+      "stars": 15,
+      "forks": 6,
+      "watchers": 10,
+      "issues": 2,
+      "lastUpdated": "2024-10-05"
     },
     "stats": {
-      "perf": "AI Model Building",
-      "users": "Data Scientists & Developers",
-      "impact": "Accelerated AI development with low-code automation"
+      "perf": "Secure Platform",
+      "users": "Students & Instructors",
+      "impact": "Real-time Education"
     }
   },
-
   {
-    "id": "ibrand-frontend",
-    "title": "iBrand Frontend",
-    "titleAr": "iBrand Frontend",
-    "slug": "ibrand-frontend",
-    "short": "Modern e-commerce platform frontend built with React and TypeScript. Features advanced UI components, payment integration, and responsive design.",
-    "shortAr": "واجهة منصة تجارة إلكترونية حديثة مبنية بـ React و TypeScript. تتميز بمكونات واجهة متقدمة وتكامل الدفع وتصميم متجاوب.",
+    "id": "ibrand-architecture",
+    "title": "iBrand Architecture",
+    "titleAr": "هندسة iBrand",
+    "slug": "ibrand-architecture",
+    "short": "Production-grade frontend for high-traffic retail. Engineered for scalability and performance.",
+    "shortAr": "واجهة أمامية على مستوى الإنتاج لتجارة التجزئة عالية الزيارات. مهندسة للتوسع والأداء.",
     "cover": "/images/projects/ibrand-frontend.svg",
     "tags": [
       "React",
-      "TypeScript",
-      "E-commerce",
-      "UI/UX",
-      "Frontend"
+      "Architecture",
+      "High-Scale",
+      "Performance",
+      "Retail"
     ],
     "year": 2024,
     "live": "https://github.com/Mohamed2007Sarhan/ibrand_front_react",
     "repo": "https://github.com/Mohamed2007Sarhan/ibrand_front_react",
-    "caseStudy": "/projects/ibrand-frontend",
+    "caseStudy": "/projects/ibrand-architecture",
     "githubStats": {
       "stars": 8,
       "forks": 3,
@@ -92,9 +90,9 @@
       "lastUpdated": "2024-01-15"
     },
     "stats": {
-      "perf": "Modern Frontend",
-      "users": "E-commerce Users",
-      "impact": "Enhanced Shopping Experience"
+      "perf": "Production Architecture",
+      "users": "High-Volume Users",
+      "impact": "Scalable Performance"
     }
   },
   {
