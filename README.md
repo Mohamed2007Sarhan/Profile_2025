@@ -34,7 +34,7 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Mohamed2007Sarhan/Profile-Mohamed-Sarhan.git
+git clone https://github.com/Mohamed2007Sarhan/Profile_2025.git
 cd Profile-Mohamed-Sarhan
 ```
 
